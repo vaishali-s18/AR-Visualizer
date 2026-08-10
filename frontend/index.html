@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <title>AR Interior Design Visualizer — See Furniture in Your Room</title>
+    <meta name="description" content="Browse real furniture and preview it true-to-scale in your room using AR before you buy." />
+
+    <!--
+      model-viewer is a Google web component that wraps Three.js + WebXR.
+      WHY CDN: It's a large library (~1MB). Loading it from Google's CDN
+      means users likely already have it cached from other sites.
+      The `type="module"` ensures it only loads in modern browsers that
+      support WebXR anyway.
+    -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
