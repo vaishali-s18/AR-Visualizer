@@ -1,46 +1,43 @@
 import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { SlidersHorizontal, X } from 'lucide-react';
+import { Search, X } from 'lucide-react';
 import { filterProducts, CATEGORIES } from '../data/mockProducts';
-
-// Phase 2 reusable catalogue components
-import SearchBar         from '../components/catalogue/SearchBar';
-import CategoryFilter    from '../components/catalogue/CategoryFilter';
-import FurnitureGrid     from '../components/catalogue/FurnitureGrid';
-import ModelPreviewModal from '../components/catalogue/ModelPreviewModal';
+import ProductCard from '../components/ProductCard';
 
 const SORT_OPTIONS = [
-  { value: 'default',    label: 'Featured'          },
-  { value: 'price-asc',  label: 'Price: Low → High' },
+  { value: 'default', label: 'Featured' },
+  { value: 'price-asc', label: 'Price: Low → High' },
   { value: 'price-desc', label: 'Price: High → Low' },
-  { value: 'rating',     label: 'Top Rated'         },
+  { value: 'rating', label: 'Top Rated' },
 ];
 
 const Catalogue = () => {
   const [searchParams, setSearchParams] = useSearchParams();
-  const [search,   setSearch]   = useState(searchParams.get('search')   || '');
+  const [search, setSearch] = useState(searchParams.get('search') || '');
   const [category, setCategory] = useState(searchParams.get('category') || 'All');
-  const [sort,     setSort]     = useState('default');
+  const [sort, setSort] = useState('default');
   const [products, setProducts] = useState([]);
-  const [preview,  setPreview]  = useState(null); // product open in 3D modal
 
-  // Re-filter whenever search / category / sort changes
+  // Re-filter whenever search/category changes
   useEffect(() => {
     let result = filterProducts({ category, search });
-    if (sort === 'price-asc')  result = [...result].sort((a, b) => a.price - b.price);
+    if (sort === 'price-asc') result = [...result].sort((a, b) => a.price - b.price);
     if (sort === 'price-desc') result = [...result].sort((a, b) => b.price - a.price);
-    if (sort === 'rating')     result = [...result].sort((a, b) => (b.rating || 0) - (a.rating || 0));
+    if (sort === 'rating') result = [...result].sort((a, b) => (b.rating || 0) - (a.rating || 0));
     setProducts(result);
   }, [category, search, sort]);
 
-  // Sync state from URL params on mount
+  // Sync from URL on mount
   useEffect(() => {
     const cat = searchParams.get('category');
     if (cat) setCategory(cat);
     const q = searchParams.get('search');
-    if (q)   setSearch(q);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    if (q) setSearch(q);
   }, []);
+
+  const handleSearch = (e) => {
+    e.preventDefault();
+  };
 
   const clearFilters = () => {
     setSearch('');
@@ -52,36 +49,64 @@ const Catalogue = () => {
   const isFiltered = search || category !== 'All';
 
   return (
-    <div style={{ paddingTop: 68, minHeight: '100vh' }}>
+    <div style={{ paddingTop: 80, minHeight: '100vh' }}>
 
       {/* Page Header */}
-      <div style={{ background: 'var(--surface-2)', borderBottom: '1px solid var(--border)', padding: '3rem 0 2.5rem' }}>
+      <div style={{ 
+        background: 'var(--surface)', 
+        borderBottom: '1px solid var(--border)', 
+        padding: '3.5rem 0 3rem',
+      }}>
         <div className="container">
-          <div className="section-label">Our Collection</div>
-          <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: 'clamp(1.75rem, 4vw, 2.5rem)', fontWeight: 700, marginBottom: '0.5rem' }}>
-            Furniture Catalogue
+          <h1 style={{ 
+            fontFamily: "'Playfair Display', serif", 
+            fontSize: 'clamp(2rem, 4vw, 3rem)', 
+            fontWeight: 600, 
+            marginBottom: '0.75rem',
+          }}>
+            Find pieces that fit your space.
           </h1>
-          <p style={{ color: 'var(--text-2)', fontSize: '1rem' }}>
+          <p style={{ color: 'var(--text-2)', fontSize: '1.05rem' }}>
             Browse, preview in 3D, then place in your room using AR.
           </p>
         </div>
       </div>
 
-      <div className="container" style={{ padding: '2rem 1.5rem' }}>
+      <div className="container" style={{ padding: '2.5rem 2rem' }}>
+
+        {/* Category chips */}
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', marginBottom: '2rem' }}>
+          {CATEGORIES.map(cat => (
+            <button
+              key={cat}
+              className={`chip ${category === cat ? 'chip-active' : ''}`}
+              onClick={() => setCategory(cat)}
+            >
+              {cat}
+            </button>
+          ))}
+        </div>
 
         {/* Search + Sort bar */}
-        <div style={{ display: 'flex', gap: '0.875rem', marginBottom: '1.25rem', flexWrap: 'wrap', alignItems: 'center' }}>
-          <SearchBar
-            value={search}
-            onSearch={setSearch}
-            placeholder="Search furniture, materials, categories…"
-          />
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', flexShrink: 0 }}>
-            <SlidersHorizontal size={15} style={{ color: 'var(--text-3)' }} />
+        <div style={{ display: 'flex', gap: '1rem', marginBottom: '2rem', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between' }}>
+          <form onSubmit={handleSearch} style={{ flex: 1, minWidth: 280, display: 'flex', gap: '0.5rem' }}>
+            <div style={{ position: 'relative', flex: 1, maxWidth: 400 }}>
+              <Search size={18} style={{ position: 'absolute', left: 14, top: '50%', transform: 'translateY(-50%)', color: 'var(--text-3)' }} />
+              <input
+                className="input"
+                style={{ paddingLeft: '2.75rem' }}
+                placeholder="Search furniture..."
+                value={search}
+                onChange={e => setSearch(e.target.value)}
+              />
+            </div>
+          </form>
+
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+            <label style={{ fontSize: '0.875rem', fontWeight: 500, color: 'var(--text-2)' }}>Sort by:</label>
             <select
-              id="catalogue-sort"
               className="input"
-              style={{ width: 'auto', cursor: 'pointer' }}
+              style={{ width: 'auto', minWidth: 180, cursor: 'pointer', paddingRight: '2.5rem' }}
               value={sort}
               onChange={e => setSort(e.target.value)}
             >
@@ -90,47 +115,59 @@ const Catalogue = () => {
           </div>
         </div>
 
-        {/* Category filter pills */}
-        <div style={{ marginBottom: '1.75rem' }}>
-          <CategoryFilter
-            categories={CATEGORIES}
-            active={category}
-            onChange={setCategory}
-          />
-        </div>
-
         {/* Results meta */}
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.5rem', flexWrap: 'wrap', gap: '0.75rem' }}>
-          <p style={{ fontSize: '0.875rem', color: 'var(--text-3)' }}>
-            Showing <strong style={{ color: 'var(--text)' }}>{products.length}</strong> items
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '2rem', flexWrap: 'wrap', gap: '0.75rem' }}>
+          <p style={{ fontSize: '0.9rem', color: 'var(--text-2)' }}>
+            Showing <strong style={{ color: 'var(--text)', fontWeight: 600 }}>{products.length}</strong> items
             {category !== 'All' && ` in ${category}`}
             {search && ` for "${search}"`}
           </p>
           {isFiltered && (
-            <button
-              onClick={clearFilters}
-              style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', fontSize: '0.82rem', color: 'var(--text-3)', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}
-            >
+            <button onClick={clearFilters} style={{ 
+              display: 'flex', 
+              alignItems: 'center', 
+              gap: '0.4rem', 
+              fontSize: '0.875rem', 
+              color: 'var(--text-2)', 
+              background: 'none', 
+              border: 'none', 
+              cursor: 'pointer', 
+              padding: 0,
+            }}>
               <X size={14} /> Clear filters
             </button>
           )}
         </div>
 
-        {/* Furniture Grid */}
-        <FurnitureGrid
-          products={products}
-          onPreview3D={setPreview}
-        />
+        {/* Grid */}
+        {products.length > 0 ? (
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
+            gap: '2rem',
+          }}>
+            {products.map(p => <ProductCard key={p.id} product={p} />)}
+          </div>
+        ) : (
+          <div style={{
+            textAlign: 'center',
+            padding: '6rem 2rem',
+            background: 'var(--surface)',
+            borderRadius: 'var(--radius-xl)',
+            border: '1px solid var(--border)',
+          }}>
+            <div style={{ fontSize: '3.5rem', marginBottom: '1.5rem' }}>🔍</div>
+            <h3 style={{ fontSize: '1.5rem', fontWeight: 600, marginBottom: '0.75rem' }}>No products found</h3>
+            <p style={{ color: 'var(--text-2)', marginBottom: '2rem' }}>
+              Try adjusting your filters or search term.
+            </p>
+            <button className="btn btn-primary" onClick={clearFilters}>
+              Clear all filters
+            </button>
+          </div>
+        )}
 
       </div>
-
-      {/* 3D Model Preview Modal */}
-      {preview && (
-        <ModelPreviewModal
-          product={preview}
-          onClose={() => setPreview(null)}
-        />
-      )}
     </div>
   );
 };

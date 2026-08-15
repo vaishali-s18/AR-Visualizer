@@ -23,6 +23,8 @@ export const mockProducts = [
     name: 'Harbour Linen Sofa',
     category: 'Sofas',
     price: 52999,
+    originalPrice: 68000,
+    discount: 22,
     description:
       'A sculptural three-seater with deep-set cushions and a solid walnut frame. The stone-linen upholstery is removable and machine-washable, making it as practical as it is elegant.',
     dimensions: { width: 220, height: 85, depth: 95 },
@@ -36,13 +38,16 @@ export const mockProducts = [
     reviews: 148,
     badge: 'Bestseller',
     thumbnailUrl: null,
-    affiliateUrl: 'https://www.amazon.in',
+    affiliateUrl: 'https://www.amazon.in/s?k=linen+sofa+3+seater&tag=YOUR-AFFILIATE-TAG',
+    affiliateLabel: 'amazon',
   },
   {
     id: 'p002',
     name: 'Milo Velvet Sectional',
     category: 'Sofas',
     price: 87500,
+    originalPrice: 110000,
+    discount: 20,
     description:
       'A modular L-shaped sectional upholstered in midnight-green velvet. Each piece clicks together with hidden steel brackets — reconfigure it as your space evolves.',
     dimensions: { width: 280, height: 80, depth: 160 },
@@ -56,13 +61,16 @@ export const mockProducts = [
     reviews: 62,
     badge: 'New',
     thumbnailUrl: null,
-    affiliateUrl: 'https://www.amazon.in',
+    affiliateUrl: 'https://www.amazon.in/s?k=velvet+sectional+sofa&tag=YOUR-AFFILIATE-TAG',
+    affiliateLabel: 'amazon',
   },
   {
     id: 'p003',
     name: 'Haven Leather Sofa',
     category: 'Sofas',
     price: 74000,
+    originalPrice: 92000,
+    discount: 20,
     description:
       'Full-grain Italian leather, hand-stitched with saddle-stitch detail. Ages beautifully and becomes more characterful over time.',
     dimensions: { width: 200, height: 78, depth: 90 },
@@ -76,7 +84,8 @@ export const mockProducts = [
     reviews: 210,
     badge: null,
     thumbnailUrl: null,
-    affiliateUrl: 'https://www.amazon.in',
+    affiliateUrl: 'https://www.amazon.in/s?k=leather+sofa+3+seater&tag=YOUR-AFFILIATE-TAG',
+    affiliateLabel: 'amazon',
   },
 
   // ── Chairs ─────────────────────────────────────────────────────────────────
@@ -85,6 +94,8 @@ export const mockProducts = [
     name: 'Prestige Accent Chair',
     category: 'Chairs',
     price: 18500,
+    originalPrice: 23000,
+    discount: 20,
     description:
       'A sleek upholstered accent chair with tapered brass legs. Compact enough for a reading corner but statement-making enough to anchor a living room.',
     dimensions: { width: 72, height: 82, depth: 74 },
@@ -98,13 +109,16 @@ export const mockProducts = [
     reviews: 93,
     badge: 'Trending',
     thumbnailUrl: null,
-    affiliateUrl: 'https://www.amazon.in',
+    affiliateUrl: 'https://www.amazon.in/s?k=accent+chair+boucle&tag=YOUR-AFFILIATE-TAG',
+    affiliateLabel: 'amazon',
   },
   {
     id: 'p005',
     name: 'Zakopane Lounge Chair',
     category: 'Chairs',
     price: 22000,
+    originalPrice: 28000,
+    discount: 21,
     description:
       'Inspired by Polish mountain craft, this lounge chair features a hand-carved oak frame and saddle-leather seat that molds to your shape over time.',
     dimensions: { width: 68, height: 88, depth: 78 },
@@ -118,13 +132,16 @@ export const mockProducts = [
     reviews: 45,
     badge: 'Artisan',
     thumbnailUrl: null,
-    affiliateUrl: 'https://www.amazon.in',
+    affiliateUrl: 'https://www.amazon.in/s?k=lounge+chair+oak+leather&tag=YOUR-AFFILIATE-TAG',
+    affiliateLabel: 'amazon',
   },
   {
     id: 'p006',
     name: 'England Side Chair',
     category: 'Chairs',
     price: 9800,
+    originalPrice: 13000,
+    discount: 25,
     description:
       'A refined reproduction of a 1750s English side chair. Carved mahogany legs, cabriole detail, and a padded seat covered in cotton damask.',
     dimensions: { width: 54, height: 96, depth: 52 },
@@ -138,7 +155,8 @@ export const mockProducts = [
     reviews: 31,
     badge: null,
     thumbnailUrl: null,
-    affiliateUrl: 'https://www.amazon.in',
+    affiliateUrl: 'https://www.amazon.in/s?k=antique+side+chair+mahogany&tag=YOUR-AFFILIATE-TAG',
+    affiliateLabel: 'amazon',
   },
 
   // ── Tables ─────────────────────────────────────────────────────────────────
@@ -147,6 +165,8 @@ export const mockProducts = [
     name: 'Solid Oak Dining Table',
     category: 'Tables',
     price: 41000,
+    originalPrice: 52000,
+    discount: 21,
     description:
       'Crafted from a single slab of European white oak, finished with natural oil to bring out the grain. Seats six comfortably, eight with the extension leaf.',
     dimensions: { width: 180, height: 75, depth: 90 },
@@ -160,13 +180,16 @@ export const mockProducts = [
     reviews: 127,
     badge: 'Premium',
     thumbnailUrl: null,
-    affiliateUrl: 'https://www.amazon.in',
+    affiliateUrl: 'https://www.amazon.in/s?k=solid+oak+dining+table+6+seater&tag=YOUR-AFFILIATE-TAG',
+    affiliateLabel: 'amazon',
   },
   {
     id: 'p008',
     name: 'Brass & Marble Coffee Table',
     category: 'Tables',
     price: 27500,
+    originalPrice: 35000,
+    discount: 21,
     description:
       'Nero Marquina marble top on a powder-coated brass frame. The hexagonal silhouette makes it equally at home in mid-century or contemporary interiors.',
     dimensions: { width: 110, height: 40, depth: 60 },
@@ -180,13 +203,16 @@ export const mockProducts = [
     reviews: 89,
     badge: "Editor's Pick",
     thumbnailUrl: null,
-    affiliateUrl: 'https://www.amazon.in',
+    affiliateUrl: 'https://www.amazon.in/s?k=marble+coffee+table+brass&tag=YOUR-AFFILIATE-TAG',
+    affiliateLabel: 'amazon',
   },
   {
     id: 'p009',
     name: 'Spindle Side Table',
     category: 'Tables',
     price: 6200,
+    originalPrice: 8500,
+    discount: 27,
     description:
       'A versatile bedside or side table with hand-turned spindle legs in solid ash. Available with a natural or charcoal finish.',
     dimensions: { width: 45, height: 60, depth: 45 },
@@ -200,16 +226,18 @@ export const mockProducts = [
     reviews: 76,
     badge: null,
     thumbnailUrl: null,
-    affiliateUrl: 'https://www.amazon.in',
+    affiliateUrl: 'https://www.amazon.in/s?k=side+table+solid+wood&tag=YOUR-AFFILIATE-TAG',
+    affiliateLabel: 'amazon',
   },
 
-  // ── Lighting ───────────────────────────────────────────────────────────────
   // ── Lamps ──────────────────────────────────────────────────────────────────
   {
     id: 'p010',
     name: 'Peacock Table Lamp',
     category: 'Lamps',
     price: 8400,
+    originalPrice: 11000,
+    discount: 24,
     description:
       'An art-deco inspired table lamp with a hand-thrown ceramic base in peacock teal and a linen drum shade. Casts a warm, diffused glow.',
     dimensions: { width: 28, height: 55, depth: 28 },
@@ -223,13 +251,16 @@ export const mockProducts = [
     reviews: 204,
     badge: 'Bestseller',
     thumbnailUrl: null,
-    affiliateUrl: 'https://www.amazon.in',
+    affiliateUrl: 'https://www.amazon.in/s?k=ceramic+table+lamp+teal&tag=YOUR-AFFILIATE-TAG',
+    affiliateLabel: 'amazon',
   },
   {
     id: 'p011',
     name: 'Rattan Pendant Lamp',
     category: 'Lamps',
     price: 4900,
+    originalPrice: 6500,
+    discount: 25,
     description:
       'Handwoven rattan shade in a wide-brim silhouette. Creates beautiful dappled light patterns on walls and ceilings. Cord length adjustable.',
     dimensions: { width: 50, height: 30, depth: 50 },
@@ -243,13 +274,16 @@ export const mockProducts = [
     reviews: 118,
     badge: null,
     thumbnailUrl: null,
-    affiliateUrl: 'https://www.amazon.in',
+    affiliateUrl: 'https://www.amazon.in/s?k=rattan+pendant+light&tag=YOUR-AFFILIATE-TAG',
+    affiliateLabel: 'amazon',
   },
   {
     id: 'p012',
     name: 'Arc Floor Lamp',
     category: 'Lamps',
     price: 14200,
+    originalPrice: 18000,
+    discount: 21,
     description:
       'A bold arching floor lamp in satin brass with a white linen shade. The arc extends 160 cm, perfect for reading over a sofa or chair.',
     dimensions: { width: 40, height: 180, depth: 40 },
@@ -263,7 +297,8 @@ export const mockProducts = [
     reviews: 57,
     badge: 'New',
     thumbnailUrl: null,
-    affiliateUrl: 'https://www.amazon.in',
+    affiliateUrl: 'https://www.amazon.in/s?k=arc+floor+lamp+brass&tag=YOUR-AFFILIATE-TAG',
+    affiliateLabel: 'amazon',
   },
 
   // ── Cabinets ───────────────────────────────────────────────────────────────
@@ -272,6 +307,8 @@ export const mockProducts = [
     name: 'Shaker Bookcase',
     category: 'Cabinets',
     price: 19800,
+    originalPrice: 26000,
+    discount: 24,
     description:
       'A five-shelf bookcase in solid birch with Shaker-style detailing. The adjustable shelves accommodate everything from paperbacks to oversized art books.',
     dimensions: { width: 100, height: 200, depth: 35 },
@@ -285,13 +322,16 @@ export const mockProducts = [
     reviews: 143,
     badge: null,
     thumbnailUrl: null,
-    affiliateUrl: 'https://www.amazon.in',
+    affiliateUrl: 'https://www.amazon.in/s?k=bookcase+5+shelf+solid+wood&tag=YOUR-AFFILIATE-TAG',
+    affiliateLabel: 'amazon',
   },
   {
     id: 'p014',
     name: 'Cane Sideboard Cabinet',
     category: 'Cabinets',
     price: 32000,
+    originalPrice: 42000,
+    discount: 24,
     description:
       'A three-door sideboard with hand-woven cane panel doors, solid teak frame, and soft-close hinges. Ample interior storage behind each door.',
     dimensions: { width: 160, height: 80, depth: 45 },
@@ -305,13 +345,16 @@ export const mockProducts = [
     reviews: 66,
     badge: 'Artisan',
     thumbnailUrl: null,
-    affiliateUrl: 'https://www.amazon.in',
+    affiliateUrl: 'https://www.amazon.in/s?k=cane+sideboard+teak&tag=YOUR-AFFILIATE-TAG',
+    affiliateLabel: 'amazon',
   },
   {
     id: 'p017',
     name: 'Walnut Display Cabinet',
     category: 'Cabinets',
     price: 44500,
+    originalPrice: 58000,
+    discount: 23,
     description:
       'A floor-to-ceiling display cabinet in oiled walnut with adjustable glass shelves and integrated LED strip lighting. Perfect for showcasing collectibles and fine ceramics.',
     dimensions: { width: 90, height: 220, depth: 40 },
@@ -325,7 +368,8 @@ export const mockProducts = [
     reviews: 54,
     badge: 'Premium',
     thumbnailUrl: null,
-    affiliateUrl: 'https://www.amazon.in',
+    affiliateUrl: 'https://www.amazon.in/s?k=walnut+display+cabinet+glass&tag=YOUR-AFFILIATE-TAG',
+    affiliateLabel: 'amazon',
   },
 
   // ── Beds ───────────────────────────────────────────────────────────────────
@@ -334,6 +378,8 @@ export const mockProducts = [
     name: 'Linen Platform Bed',
     category: 'Beds',
     price: 68000,
+    originalPrice: 88000,
+    discount: 23,
     description:
       'A low-profile platform bed with a solid oak base and a linen-upholstered headboard. The floating frame gives a serene, minimal aesthetic inspired by Japanese interiors.',
     dimensions: { width: 180, height: 90, depth: 220 },
@@ -347,13 +393,16 @@ export const mockProducts = [
     reviews: 97,
     badge: 'Bestseller',
     thumbnailUrl: null,
-    affiliateUrl: 'https://www.amazon.in',
+    affiliateUrl: 'https://www.amazon.in/s?k=platform+bed+linen+upholstered&tag=YOUR-AFFILIATE-TAG',
+    affiliateLabel: 'amazon',
   },
   {
     id: 'p019',
     name: 'Rattan Canopy Bed',
     category: 'Beds',
     price: 95000,
+    originalPrice: 125000,
+    discount: 24,
     description:
       'A four-poster canopy bed with hand-woven rattan panels and a solid mahogany frame. Drape with sheer linen for a bohemian sanctuary feel.',
     dimensions: { width: 160, height: 220, depth: 210 },
@@ -367,13 +416,16 @@ export const mockProducts = [
     reviews: 38,
     badge: 'Artisan',
     thumbnailUrl: null,
-    affiliateUrl: 'https://www.amazon.in',
+    affiliateUrl: 'https://www.amazon.in/s?k=canopy+bed+rattan+4+poster&tag=YOUR-AFFILIATE-TAG',
+    affiliateLabel: 'amazon',
   },
   {
     id: 'p020',
     name: 'Velvet Upholstered Bed',
     category: 'Beds',
     price: 54000,
+    originalPrice: 70000,
+    discount: 23,
     description:
       'A king-size bed with a deep-buttoned velvet headboard and solid beech legs. The high back panel doubles as a backrest for reading in bed.',
     dimensions: { width: 190, height: 130, depth: 215 },
@@ -387,7 +439,8 @@ export const mockProducts = [
     reviews: 72,
     badge: 'New',
     thumbnailUrl: null,
-    affiliateUrl: 'https://www.amazon.in',
+    affiliateUrl: 'https://www.amazon.in/s?k=velvet+upholstered+bed+king&tag=YOUR-AFFILIATE-TAG',
+    affiliateLabel: 'amazon',
   },
 
   // ── Decor ──────────────────────────────────────────────────────────────────
@@ -396,6 +449,8 @@ export const mockProducts = [
     name: 'Terracotta Vase Set',
     category: 'Decor',
     price: 2800,
+    originalPrice: 3800,
+    discount: 26,
     description:
       'Set of three hand-thrown terracotta vases in graduated sizes. Each piece has a unique texture and slight variation — no two sets are identical.',
     dimensions: { width: 18, height: 35, depth: 18 },
@@ -409,13 +464,16 @@ export const mockProducts = [
     reviews: 312,
     badge: 'Trending',
     thumbnailUrl: null,
-    affiliateUrl: 'https://www.amazon.in',
+    affiliateUrl: 'https://www.amazon.in/s?k=terracotta+vase+set+handmade&tag=YOUR-AFFILIATE-TAG',
+    affiliateLabel: 'amazon',
   },
   {
     id: 'p016',
     name: 'Geometric Wall Mirror',
     category: 'Decor',
     price: 7600,
+    originalPrice: 9800,
+    discount: 22,
     description:
       'An arched full-length mirror with a thin powder-coated steel frame in antique brass. Leans against the wall or can be wall-mounted with included hardware.',
     dimensions: { width: 60, height: 150, depth: 3 },
@@ -429,7 +487,8 @@ export const mockProducts = [
     reviews: 188,
     badge: null,
     thumbnailUrl: null,
-    affiliateUrl: 'https://www.amazon.in',
+    affiliateUrl: 'https://www.amazon.in/s?k=arch+mirror+antique+brass&tag=YOUR-AFFILIATE-TAG',
+    affiliateLabel: 'amazon',
   },
 ];
 

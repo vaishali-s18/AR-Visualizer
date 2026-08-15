@@ -13,17 +13,18 @@ import Signup        from './pages/Signup';
 import SavedDesigns  from './pages/SavedDesigns';
 import Profile       from './pages/Profile';
 import About         from './pages/About';
+import PricingPage   from './pages/PricingPage';
 
 // ── Protected route (simple, no backend dependency) ───────────────────────────
 import ProtectedRoute from './components/ProtectedRoute';
 
 // ── 404 page ──────────────────────────────────────────────────────────────────
 const NotFound = () => (
-  <div style={{ paddingTop: 68, minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>
+  <div style={{ paddingTop: 72, minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>
     <div>
-      <div style={{ fontFamily: "'Playfair Display', serif", fontSize: '7rem', fontWeight: 700, color: 'var(--border)', lineHeight: 1 }}>404</div>
-      <h2 style={{ fontSize: '1.5rem', marginBottom: '0.75rem' }}>Page not found</h2>
-      <p style={{ color: 'var(--text-2)', marginBottom: '2rem' }}>The page you're looking for doesn't exist.</p>
+      <div style={{ fontFamily: "'Syne', sans-serif", fontSize: '7rem', fontWeight: 800, color: 'var(--surface-3)', lineHeight: 1, letterSpacing: '-0.05em' }}>404</div>
+      <h2 style={{ fontFamily: "'Syne', sans-serif", fontSize: '1.5rem', fontWeight: 800, marginBottom: '0.75rem', letterSpacing: '-0.02em' }}>Page not found</h2>
+      <p style={{ color: 'var(--text-2)', marginBottom: '2.25rem', fontSize: '0.9rem' }}>The page you're looking for doesn't exist.</p>
       <a href="/" className="btn btn-primary">Go Home</a>
     </div>
   </div>
@@ -48,6 +49,7 @@ const App = () => (
             <Route path="/login"        element={<Login />} />
             <Route path="/signup"       element={<Signup />} />
             <Route path="/about"        element={<About />} />
+            <Route path="/pricing"      element={<PricingPage />} />
 
             {/* Protected */}
             <Route path="/designs" element={
