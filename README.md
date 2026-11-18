@@ -76,7 +76,7 @@ AR camera access and Android Google Scene Viewer **require HTTPS and a public UR
    - **Output Directory**: `dist`
    - **Install Command**: `npm install --legacy-peer-deps`
 3. **Environment Variables**:
-   - `VITE_API_URL`: Your deployed backend URL on Render (e.g. `https://ar-visualizer-backend.onrender.com`)
+   - `VITE_API_URL`: Your deployed backend origin on Render (e.g. `https://ar-visualizer-backend.onrender.com`, no trailing slash)
    - `VITE_USE_MOCK`: `false` (or `true` if deploying demo frontend without active database)
    - `VITE_PUBLIC_URL`: Your Vercel domain (e.g. `https://your-ar-visualizer.vercel.app`)
 
@@ -90,6 +90,8 @@ AR camera access and Android Google Scene Viewer **require HTTPS and a public UR
    - `MONGO_URI`: Your MongoDB Atlas connection string
    - `JWT_SECRET`: A secure random secret string
    - `CLIENT_URL`: Comma-separated list of allowed frontend origins (e.g. `https://your-ar-visualizer.vercel.app,http://localhost:5173`)
+
+After deploying the backend, open its `/api/health` URL and confirm it returns `{"status":"ok",...}`. Set `CLIENT_URL` to the exact deployed frontend origin, then redeploy the frontend after setting `VITE_API_URL`; Vite embeds this value at build time.
 
 ---
 
