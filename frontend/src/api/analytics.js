@@ -1,15 +1,16 @@
 import api from './axios';
 
+const MOCK_MODE = import.meta.env.VITE_USE_MOCK === 'true';
+
 /**
- * Analytics API helper
- * WHY: Every time a user views a product, opens AR, or clicks "Buy",
- * we log it. This is how we track which products drive revenue (buy_clicked
- * events correlate with affiliate commissions).
+ * Analytics event logger.
+ * In mock mode (no backend) this is a no-op — avoids ERR_CONNECTION_REFUSED noise.
+ * In production with a live backend it fires-and-forgets to /api/analytics/event.
  *
- * eventType: 'product_viewed' | 'ar_opened' | 'buy_clicked'
+ * eventType: 'product_viewed' | 'ar_opened' | 'buy_clicked' | 'design_created' etc.
  */
 export const logEvent = (eventType, productId) => {
-  // Fire-and-forget — we don't await this or show errors to users.
-  // Analytics should never break the main user experience.
+  if (MOCK_MODE) return;
+  // Fire-and-forget — analytics must never break the main UX.
   api.post('/api/analytics/event', { eventType, productId }).catch(() => {});
 };

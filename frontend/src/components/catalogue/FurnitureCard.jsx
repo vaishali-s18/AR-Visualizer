@@ -1,21 +1,58 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { Eye, Smartphone, Star, Box } from 'lucide-react';
+import { loadModelViewer } from '../../utils/loadModelViewer';
 
 // ─── FurnitureCard ────────────────────────────────────────────────────────────
 // Richer card used in the Phase 2 catalogue grid.
-// Shows: thumbnail, badge, out-of-stock overlay, name, category, rating,
-// material, dimensions and price. Hover reveals action buttons.
+// Shows: inline model-viewer (real GLB), badge, out-of-stock overlay, name,
+// category, rating, material, dimensions and price.
 const FurnitureCard = ({ product, onPreview3D }) => {
   const [hovered, setHovered] = useState(false);
+  const [modelLoaded, setModelLoaded] = useState(false);
+  const [modelError, setModelError] = useState(false);
+  const viewerRef = useRef(null);
   const {
     id, name, category, price, dimensions,
-    rating, reviews, badge, inStock, color,
-    material, modelUrl,
+    rating, reviews, badge, inStock,
+    material, modelUrl, arAvailable,
   } = product;
 
-  const placeholder = svgPlaceholder(name, category, color);
-  const imgSrc = product.image || product.thumbnailUrl || placeholder;
+  useEffect(() => {
+    let active = true;
+    const viewer = viewerRef.current;
+    const handleLoad = () => {
+      if (!active) return;
+      setModelLoaded(true);
+      setModelError(false);
+    };
+    const handleError = () => {
+      if (!active) return;
+      setModelError(true);
+      setModelLoaded(true);
+    };
+
+    setModelLoaded(false);
+    setModelError(false);
+    viewer?.addEventListener('load', handleLoad);
+    viewer?.addEventListener('error', handleError);
+    if (viewer?.loaded) handleLoad();
+
+    if (!modelUrl) {
+      handleError();
+    } else {
+      loadModelViewer().catch((err) => {
+        console.warn('[FurnitureCard] Failed to load model-viewer:', err);
+        handleError();
+      });
+    }
+
+    return () => {
+      active = false;
+      viewer?.removeEventListener('load', handleLoad);
+      viewer?.removeEventListener('error', handleError);
+    };
+  }, [modelUrl]);
 
   return (
     <div
@@ -24,23 +61,71 @@ const FurnitureCard = ({ product, onPreview3D }) => {
       onMouseLeave={() => setHovered(false)}
       style={{ overflow: 'hidden', display: 'flex', flexDirection: 'column', position: 'relative' }}
     >
-      {/* ── Thumbnail ───────────────────────────────────────────────── */}
+      {/* ── 3D Model Preview ────────────────────────────────────────── */}
       <div style={{ position: 'relative', background: 'var(--surface-2)', aspectRatio: '4/3', overflow: 'hidden' }}>
-        <img
-          src={imgSrc}
-          alt={name}
-          onError={e => { e.currentTarget.src = placeholder; }}
-          style={{
-            width: '100%', height: '100%', objectFit: 'cover',
-            transition: 'transform 0.45s ease',
-            transform: hovered ? 'scale(1.06)' : 'scale(1)',
-          }}
-        />
+
+        {/* Loading skeleton */}
+        {!modelLoaded && (
+          <div style={{
+            position: 'absolute', inset: 0, zIndex: 1,
+            display: 'flex', flexDirection: 'column',
+            alignItems: 'center', justifyContent: 'center', gap: '0.4rem',
+            background: 'var(--surface-2)',
+          }}>
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none"
+              stroke="var(--text-3)" strokeWidth="1.5"
+              style={{ animation: 'mv-spin 1.2s linear infinite', opacity: 0.5 }}>
+              <circle cx="12" cy="12" r="10" opacity="0.2"/>
+              <path d="M12 2a10 10 0 0 1 10 10"/>
+            </svg>
+            <span style={{ fontSize: '0.65rem', color: 'var(--text-3)' }}>Loading 3D…</span>
+          </div>
+        )}
+
+        {/* Real GLB model */}
+        {modelUrl && (
+          <model-viewer
+            ref={viewerRef}
+            src={modelUrl}
+            alt={name}
+            auto-rotate
+            auto-rotate-delay="600"
+            rotation-per-second="18deg"
+            camera-controls
+            camera-orbit="45deg 75deg 105%"
+            field-of-view="30deg"
+            shadow-intensity="0.7"
+            shadow-softness="1"
+            exposure="1.1"
+            loading="lazy"
+            reveal="auto"
+            style={{
+              width: '100%', height: '100%', display: 'block',
+              '--poster-color': 'var(--surface-2)',
+              opacity: modelLoaded && !modelError ? 1 : 0,
+              transition: 'opacity 0.4s ease',
+            }}
+          />
+        )}
+
+        {modelError && (
+          <div style={{
+            position: 'absolute', inset: 0,
+            display: 'flex', flexDirection: 'column',
+            alignItems: 'center', justifyContent: 'center', gap: '0.5rem',
+            background: 'var(--surface-2)',
+          }}>
+            <span style={{ fontSize: '2rem' }}>🪑</span>
+            <span style={{ fontSize: '0.75rem', color: 'var(--text-3)', textAlign: 'center', padding: '0 1rem' }}>
+              {name}
+            </span>
+          </div>
+        )}
 
         {/* Badge */}
         {badge && (
           <span style={{
-            position: 'absolute', top: 10, left: 10,
+            position: 'absolute', top: 10, left: 10, zIndex: 2,
             background: 'var(--accent)', color: '#fff',
             fontSize: '0.65rem', fontWeight: 700, letterSpacing: '0.07em',
             textTransform: 'uppercase', padding: '0.28rem 0.6rem', borderRadius: 6,
@@ -49,17 +134,17 @@ const FurnitureCard = ({ product, onPreview3D }) => {
           </span>
         )}
 
-        {/* Model format badge */}
-        {modelUrl && (
+        {/* 3D badge */}
+        {modelLoaded && !modelError && (
           <span style={{
-            position: 'absolute', top: 10, right: 10,
+            position: 'absolute', top: 10, right: 10, zIndex: 2,
             background: 'rgba(28,25,22,0.65)', color: '#fff',
             backdropFilter: 'blur(6px)',
             fontSize: '0.62rem', fontWeight: 700, letterSpacing: '0.06em',
             textTransform: 'uppercase', padding: '0.24rem 0.55rem', borderRadius: 6,
             display: 'flex', alignItems: 'center', gap: 4,
           }}>
-            <Box size={10} /> GLB
+            <Box size={10} /> 3D
           </span>
         )}
 
@@ -85,38 +170,58 @@ const FurnitureCard = ({ product, onPreview3D }) => {
           transform: hovered ? 'translateY(0)' : 'translateY(110%)',
           transition: 'transform 0.3s ease',
         }}>
-          {/* Preview 3D */}
-          <button
-            onClick={(e) => { e.preventDefault(); onPreview3D && onPreview3D(product); }}
-            style={{
-              flex: 1, background: 'rgba(255,255,255,0.15)', color: '#fff',
-              backdropFilter: 'blur(8px)', border: '1px solid rgba(255,255,255,0.2)',
-              borderRadius: 8, padding: '0.42rem 0.6rem', fontSize: '0.72rem', fontWeight: 600,
-              cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 4,
-              transition: 'background 0.2s',
-            }}
-            onMouseEnter={e => e.currentTarget.style.background = 'rgba(255,255,255,0.25)'}
-            onMouseLeave={e => e.currentTarget.style.background = 'rgba(255,255,255,0.15)'}
-          >
-            <Box size={12} /> Preview 3D
-          </button>
+          {/* Preview 3D — only shown when a model is available */}
+          {arAvailable !== false && modelUrl && (
+            <button
+              onClick={(e) => { e.preventDefault(); onPreview3D && onPreview3D(product); }}
+              style={{
+                flex: 1, background: 'rgba(255,255,255,0.15)', color: '#fff',
+                backdropFilter: 'blur(8px)', border: '1px solid rgba(255,255,255,0.2)',
+                borderRadius: 8, padding: '0.42rem 0.6rem', fontSize: '0.72rem', fontWeight: 600,
+                cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 4,
+                transition: 'background 0.2s',
+              }}
+              onMouseEnter={e => e.currentTarget.style.background = 'rgba(255,255,255,0.25)'}
+              onMouseLeave={e => e.currentTarget.style.background = 'rgba(255,255,255,0.15)'}
+            >
+              <Box size={12} /> Preview 3D
+            </button>
+          )}
 
-          {/* Try AR */}
-          <Link
-            to={`/ar/${id}`}
-            onClick={e => e.stopPropagation()}
-            style={{
-              flex: 1, background: 'var(--accent)', color: '#fff',
-              borderRadius: 8, padding: '0.42rem 0.6rem', fontSize: '0.72rem', fontWeight: 600,
-              display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 4,
-              border: 'none', cursor: 'pointer',
-              transition: 'background 0.2s',
-            }}
-            onMouseEnter={e => e.currentTarget.style.background = 'var(--accent-light)'}
-            onMouseLeave={e => e.currentTarget.style.background = 'var(--accent)'}
-          >
-            <Smartphone size={12} /> Try AR
-          </Link>
+          {/* Try AR / View Details */}
+          {arAvailable !== false ? (
+            <Link
+              to={`/ar/${id}`}
+              onClick={e => e.stopPropagation()}
+              style={{
+                flex: 1, background: 'var(--accent)', color: '#fff',
+                borderRadius: 8, padding: '0.42rem 0.6rem', fontSize: '0.72rem', fontWeight: 600,
+                display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 4,
+                border: 'none', cursor: 'pointer',
+                transition: 'background 0.2s',
+              }}
+              onMouseEnter={e => e.currentTarget.style.background = 'var(--accent-light)'}
+              onMouseLeave={e => e.currentTarget.style.background = 'var(--accent)'}
+            >
+              <Smartphone size={12} /> Try AR
+            </Link>
+          ) : (
+            <Link
+              to={`/products/${id}`}
+              onClick={e => e.stopPropagation()}
+              style={{
+                flex: 1, background: 'rgba(255,255,255,0.15)', color: '#fff',
+                backdropFilter: 'blur(8px)', border: '1px solid rgba(255,255,255,0.2)',
+                borderRadius: 8, padding: '0.42rem 0.6rem', fontSize: '0.72rem', fontWeight: 600,
+                display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 4,
+                transition: 'background 0.2s',
+              }}
+              onMouseEnter={e => e.currentTarget.style.background = 'rgba(255,255,255,0.25)'}
+              onMouseLeave={e => e.currentTarget.style.background = 'rgba(255,255,255,0.15)'}
+            >
+              <Eye size={12} /> View Details
+            </Link>
+          )}
         </div>
       </div>
 
@@ -189,30 +294,6 @@ const FurnitureCard = ({ product, onPreview3D }) => {
       </div>
     </div>
   );
-};
-
-// ─── SVG placeholder ──────────────────────────────────────────────────────────
-const svgPlaceholder = (name = '', category = '', color = '') => {
-  // Pick a subtle bg tint per category
-  const palettes = {
-    Chairs:   ['#EEE9E2', '#6B5E4E'],
-    Sofas:    ['#E8EDE8', '#3B4A3A'],
-    Tables:   ['#EDE8E0', '#7A6C5A'],
-    Beds:     ['#EAE8ED', '#524A66'],
-    Cabinets: ['#E8EAE5', '#4A5540'],
-    Lamps:    ['#EDE9DC', '#7A6A30'],
-    Decor:    ['#EDE2DC', '#7A4A3A'],
-  };
-  const [bg, fg] = palettes[category] || ['#F0EDE8', '#5C5248'];
-  const s = encodeURIComponent(`
-    <svg xmlns='http://www.w3.org/2000/svg' width='800' height='600'>
-      <rect width='100%' height='100%' fill='${bg}'/>
-      <text x='50%' y='42%' dominant-baseline='middle' text-anchor='middle'
-        fill='${fg}' font-size='24' font-weight='600' font-family='Georgia, serif'>${name}</text>
-      <text x='50%' y='56%' dominant-baseline='middle' text-anchor='middle'
-        fill='${fg}99' font-size='13' font-family='Arial, sans-serif'>${category}${color ? ' · ' + color : ''}</text>
-    </svg>`);
-  return `data:image/svg+xml;utf8,${s}`;
 };
 
 export default FurnitureCard;

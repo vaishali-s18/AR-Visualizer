@@ -1,10 +1,23 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'   // Global design system styles loaded first
+import './index.css'
 import App from './App.jsx'
 
-// This is the entry point — React mounts the entire app into the <div id="root">
-// in index.html. StrictMode helps catch potential issues during development.
+
+if (import.meta.env.DEV) {
+  const _warn = console.warn.bind(console);
+  console.warn = (...args) => {
+    const msg = typeof args[0] === 'string' ? args[0] : '';
+    if (
+      msg.includes('Multiple instances of Three.js') ||
+      msg.includes('KHR_materials_pbrSpecularGlossiness') ||
+      msg.includes('PCFSoftShadowMap has been deprecated') ||
+      msg.includes('WebGLProgram: Program Info Log')
+    ) return;
+    _warn(...args);
+  };
+}
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />

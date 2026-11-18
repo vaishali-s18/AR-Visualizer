@@ -1,20 +1,27 @@
 import axios from 'axios';
 
-// Create a pre-configured Axios instance.
-// WHY: Instead of typing the full URL and headers every time we make an API
-// call, we create one "base" instance that already knows the API URL.
-// All our API helper files will import THIS instead of raw axios.
+// Route LAN and tunnel requests through Vite's same-origin proxy so HTTPS pages
+// do not make mixed-content requests to the HTTP development API.
+const getBaseURL = () => {
+  if (typeof window !== 'undefined') {
+    const hostname = window.location.hostname || 'localhost';
+
+    if (hostname !== 'localhost' && hostname !== '127.0.0.1') {
+      return '';
+    }
+  }
+
+  // Desktop localhost fallback
+  if (import.meta.env.VITE_API_URL) return import.meta.env.VITE_API_URL;
+  return 'http://localhost:3000';
+};
+
 const api = axios.create({
-  // VITE_ prefix is required for Vite to expose env vars to the browser
-  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:3000',
+  baseURL: getBaseURL(),
   headers: { 'Content-Type': 'application/json' },
 });
 
-// ─── Request Interceptor ──────────────────────────────────────────────────────
-// This runs automatically BEFORE every outgoing request.
-// WHY: Instead of manually adding "Authorization: Bearer <token>" to every
-// API call, this interceptor reads the token from localStorage and injects
-// it into the header automatically.
+// Request Interceptor: automatically attaches JWT token from localStorage
 api.interceptors.request.use((config) => {
   const token = localStorage.getItem('token');
   if (token) {

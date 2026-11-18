@@ -1,0 +1,5525 @@
+[
+  {
+    "assetId": "ArmChair_01",
+    "name": "Arm Chair 01",
+    "categories": [
+      "furniture",
+      "seating"
+    ],
+    "tags": [
+      "gothic",
+      "vintage",
+      "chair",
+      "furniture",
+      "victorian",
+      "couch",
+      "wood",
+      "varnished",
+      "classic"
+    ],
+    "modelPath": "/models/ArmChair_01/ArmChair_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "BarberShopChair_01",
+    "name": "Barber Shop Chair 01",
+    "categories": [
+      "furniture",
+      "seating"
+    ],
+    "tags": [
+      "chair",
+      "vintage",
+      "wood",
+      "leather",
+      "fancy",
+      "upholstery",
+      "barber",
+      "salon"
+    ],
+    "modelPath": "/models/BarberShopChair_01/BarberShopChair_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "CashRegister_01",
+    "name": "Cash Register 01",
+    "categories": [
+      "appliances",
+      "props"
+    ],
+    "tags": [
+      "commercial",
+      "store",
+      "vintage",
+      "cash",
+      "transaction",
+      "register",
+      "money",
+      "sales",
+      "convenience store",
+      "cashier",
+      "retail",
+      "business"
+    ],
+    "modelPath": "/models/CashRegister_01/CashRegister_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "Chandelier_01",
+    "name": "Chandelier 01",
+    "categories": [
+      "lighting",
+      "decorative"
+    ],
+    "tags": [
+      "lighting",
+      "ceiling",
+      "hanging",
+      "fixture",
+      "chandelier",
+      "ornate",
+      "vintage"
+    ],
+    "modelPath": "/models/Chandelier_01/Chandelier_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "Chandelier_02",
+    "name": "Chandelier 02",
+    "categories": [
+      "lighting"
+    ],
+    "tags": [
+      "lighting",
+      "ceiling",
+      "decorative",
+      "chandelier",
+      "elegant",
+      "hanging",
+      "ornate",
+      "vintage"
+    ],
+    "modelPath": "/models/Chandelier_02/Chandelier_02.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "Chandelier_03",
+    "name": "Chandelier 03",
+    "categories": [
+      "lighting",
+      "decorative"
+    ],
+    "tags": [
+      "lighting",
+      "ceiling",
+      "hanging",
+      "fixture",
+      "chandelier",
+      "ornate",
+      "decor",
+      "elegant"
+    ],
+    "modelPath": "/models/Chandelier_03/Chandelier_03.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "ClassicConsole_01",
+    "name": "Classic Console 01",
+    "categories": [
+      "furniture",
+      "table"
+    ],
+    "tags": [
+      "wood",
+      "vintage",
+      "table",
+      "gothic",
+      "victorian",
+      "decorative"
+    ],
+    "modelPath": "/models/ClassicConsole_01/ClassicConsole_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "ClassicNightstand_01",
+    "name": "Classic Nightstand 01",
+    "categories": [
+      "furniture",
+      "table"
+    ],
+    "tags": [
+      "wood",
+      "vintage",
+      "table",
+      "gothic",
+      "victorian",
+      "decorative"
+    ],
+    "modelPath": "/models/ClassicNightstand_01/ClassicNightstand_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "CoffeeCart_01",
+    "name": "Coffee Cart 01",
+    "categories": [
+      "appliances",
+      "props",
+      "furniture",
+      "office"
+    ],
+    "tags": [
+      "table",
+      "metal",
+      "shelf",
+      "plastic",
+      "cart",
+      "coffee",
+      "portable",
+      "wheels",
+      "tea",
+      "coffee maker",
+      "mobile",
+      "catering"
+    ],
+    "modelPath": "/models/CoffeeCart_01/CoffeeCart_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "CoffeeTable_01",
+    "name": "Coffee Table 01",
+    "categories": [
+      "furniture",
+      "table"
+    ],
+    "tags": [
+      "wood",
+      "vintage",
+      "table",
+      "painted",
+      "old",
+      "worn",
+      "decorative"
+    ],
+    "modelPath": "/models/CoffeeTable_01/CoffeeTable_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "GothicBed_01",
+    "name": "Gothic Bed 01",
+    "categories": [
+      "furniture",
+      "bed"
+    ],
+    "tags": [
+      "vintage",
+      "gothic",
+      "furniture",
+      "bed",
+      "wood",
+      "decorative"
+    ],
+    "modelPath": "/models/GothicBed_01/GothicBed_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "GothicCabinet_01",
+    "name": "Gothic Cabinet 01",
+    "categories": [
+      "furniture",
+      "shelves"
+    ],
+    "tags": [
+      "vintage",
+      "wood",
+      "gothic",
+      "furniture",
+      "table",
+      "shelf",
+      "decorative"
+    ],
+    "modelPath": "/models/GothicCabinet_01/GothicCabinet_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "GothicCommode_01",
+    "name": "Gothic Commode 01",
+    "categories": [
+      "furniture",
+      "shelves"
+    ],
+    "tags": [
+      "vintage",
+      "wood",
+      "table",
+      "gothic",
+      "shelf",
+      "furniture",
+      "decorative"
+    ],
+    "modelPath": "/models/GothicCommode_01/GothicCommode_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "GreenChair_01",
+    "name": "Green Chair 01",
+    "categories": [
+      "furniture",
+      "seating"
+    ],
+    "tags": [
+      "vintage",
+      "wood",
+      "gothic",
+      "furniture",
+      "chair",
+      "fabric",
+      "decorative"
+    ],
+    "modelPath": "/models/GreenChair_01/GreenChair_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "Lantern_01",
+    "name": "Lantern 01",
+    "categories": [
+      "props",
+      "lighting"
+    ],
+    "tags": [
+      "prop",
+      "metal",
+      "glass",
+      "lantern",
+      "antique",
+      "vintage",
+      "hurricane",
+      "lamp",
+      "bronze",
+      "oldfashioned",
+      "brass",
+      "copper"
+    ],
+    "modelPath": "/models/Lantern_01/Lantern_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "Ottoman_01",
+    "name": "Ottoman 01",
+    "categories": [
+      "furniture",
+      "seating"
+    ],
+    "tags": [
+      "furniture",
+      "leather",
+      "chair",
+      "fabric",
+      "ottoman",
+      "upholstery",
+      "interior design",
+      "living room",
+      "lounge"
+    ],
+    "modelPath": "/models/Ottoman_01/Ottoman_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "Rockingchair_01",
+    "name": "Rockingchair 01",
+    "categories": [
+      "furniture",
+      "seating"
+    ],
+    "tags": [
+      "chair",
+      "vintage",
+      "prop",
+      "wood",
+      "furniture",
+      "rocking chair",
+      "rocking",
+      "decorative",
+      "curved legs",
+      "traditional",
+      "solid wood",
+      "armrest",
+      "slatted backrest",
+      "antique style"
+    ],
+    "modelPath": "/models/Rockingchair_01/Rockingchair_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "SchoolChair_01",
+    "name": "School Chair 01",
+    "categories": [
+      "furniture",
+      "seating"
+    ],
+    "tags": [
+      "prop",
+      "furniture",
+      "metal",
+      "plastic",
+      "chair",
+      "school"
+    ],
+    "modelPath": "/models/SchoolChair_01/SchoolChair_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "SchoolDesk_01",
+    "name": "School Desk 01",
+    "categories": [
+      "furniture"
+    ],
+    "tags": [
+      "table",
+      "school",
+      "desk",
+      "wood",
+      "metal",
+      "classroom",
+      "student",
+      "single-seat",
+      "school furniture",
+      "storage-shelf",
+      "metal legs",
+      "student seating"
+    ],
+    "modelPath": "/models/SchoolDesk_01/SchoolDesk_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "Shelf_01",
+    "name": "Shelf 01",
+    "categories": [
+      "furniture",
+      "shelves"
+    ],
+    "tags": [
+      "wood",
+      "shelf",
+      "furniture",
+      "storage",
+      "home",
+      "organization",
+      "display",
+      "wooden",
+      "bookcase",
+      "shelves",
+      "bookshelf",
+      "dirty",
+      "weathered",
+      "distressed",
+      "aged",
+      "simple"
+    ],
+    "modelPath": "/models/Shelf_01/Shelf_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "Sofa_01",
+    "name": "Sofa 01",
+    "categories": [
+      "furniture",
+      "seating"
+    ],
+    "tags": [
+      "wood",
+      "prop",
+      "furniture",
+      "vintage",
+      "gothic",
+      "chair",
+      "couch",
+      "victorian",
+      "decorative"
+    ],
+    "modelPath": "/models/Sofa_01/Sofa_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "WetFloorSign_01",
+    "name": "Wet Floor Sign 01",
+    "categories": [
+      "props",
+      "industrial",
+      "office"
+    ],
+    "tags": [
+      "prop",
+      "plastic",
+      "sign",
+      "safety",
+      "caution",
+      "warning",
+      "yellow",
+      "hazard",
+      "slippery",
+      "slippery when wet",
+      "utility"
+    ],
+    "modelPath": "/models/WetFloorSign_01/WetFloorSign_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "WoodenChair_01",
+    "name": "Wooden Chair 01",
+    "categories": [
+      "furniture",
+      "seating"
+    ],
+    "tags": [
+      "wood",
+      "prop",
+      "vintage",
+      "furniture",
+      "chair",
+      "gothic",
+      "victorian",
+      "decorative"
+    ],
+    "modelPath": "/models/WoodenChair_01/WoodenChair_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "WoodenTable_01",
+    "name": "Wooden Table 01",
+    "categories": [
+      "furniture"
+    ],
+    "tags": [
+      "vintage",
+      "wood",
+      "prop",
+      "table",
+      "school",
+      "desk",
+      "old",
+      "worn"
+    ],
+    "modelPath": "/models/WoodenTable_01/WoodenTable_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "WoodenTable_02",
+    "name": "Wooden Table 02",
+    "categories": [
+      "furniture",
+      "table"
+    ],
+    "tags": [
+      "vintage",
+      "wood",
+      "prop",
+      "table",
+      "furniture",
+      "old",
+      "worn",
+      "small"
+    ],
+    "modelPath": "/models/WoodenTable_02/WoodenTable_02.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "WoodenTable_03",
+    "name": "Wooden Table 03",
+    "categories": [
+      "furniture",
+      "collection: the_shed"
+    ],
+    "tags": [
+      "vintage",
+      "wood",
+      "prop",
+      "table",
+      "furniture",
+      "metal",
+      "shelf"
+    ],
+    "modelPath": "/models/WoodenTable_03/WoodenTable_03.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "alarm_clock_01",
+    "name": "Alarm Clock 01",
+    "categories": [
+      "props",
+      "decorative",
+      "rigged"
+    ],
+    "tags": [
+      "clock",
+      "time",
+      "alarm",
+      "bedside",
+      "old",
+      "90s",
+      "watch",
+      "blue",
+      "aqua"
+    ],
+    "modelPath": "/models/alarm_clock_01/alarm_clock_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "antique_ceramic_vase_01",
+    "name": "Antique Ceramic Vase 01",
+    "categories": [
+      "decorative",
+      "containers",
+      "vases"
+    ],
+    "tags": [
+      "vintage",
+      "antique",
+      "pot",
+      "fancy",
+      "pattern",
+      "vase"
+    ],
+    "modelPath": "/models/antique_ceramic_vase_01/antique_ceramic_vase_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "bar_chair_round_01",
+    "name": "Bar Chair Round 01",
+    "categories": [
+      "seating",
+      "furniture"
+    ],
+    "tags": [
+      "bar",
+      "pub",
+      "stool",
+      "tall",
+      "wooden",
+      "classical",
+      "old",
+      "vintage",
+      "cigar"
+    ],
+    "modelPath": "/models/bar_chair_round_01/bar_chair_round_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "book_encyclopedia_set_01",
+    "name": "Book Encyclopedia Set 01",
+    "categories": [
+      "props",
+      "decorative",
+      "books"
+    ],
+    "tags": [
+      "bookshelf",
+      "books",
+      "library",
+      "reading",
+      "encyclopedia",
+      "set"
+    ],
+    "modelPath": "/models/book_encyclopedia_set_01/book_encyclopedia_set_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "boombox",
+    "name": "Boombox",
+    "categories": [
+      "appliances",
+      "electronics",
+      "collection: hidden_alley"
+    ],
+    "tags": [
+      "loudspeaker",
+      "radio",
+      "cd player",
+      "stereo",
+      "80's",
+      "sound system",
+      "portable"
+    ],
+    "modelPath": "/models/boombox/boombox.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "brass_candleholders",
+    "name": "Brass Candleholders",
+    "categories": [
+      "decorative",
+      "lighting"
+    ],
+    "tags": [
+      "vintage",
+      "antique",
+      "ornate",
+      "fancy",
+      "brass",
+      "pattern",
+      "candleholders",
+      "elegant",
+      "classic",
+      "ornamental"
+    ],
+    "modelPath": "/models/brass_candleholders/brass_candleholders.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "brass_diya_lantern",
+    "name": "Brass Diya Lantern",
+    "categories": [
+      "decorative",
+      "lighting"
+    ],
+    "tags": [
+      "lighting",
+      "brass",
+      "metal",
+      "lamp",
+      "candle",
+      "light",
+      "cultural",
+      "hanging"
+    ],
+    "modelPath": "/models/brass_diya_lantern/brass_diya_lantern.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "brass_goblets",
+    "name": "Brass Goblets",
+    "categories": [
+      "props",
+      "dishes",
+      "decorative",
+      "containers"
+    ],
+    "tags": [
+      "vintage",
+      "old",
+      "antique",
+      "fancy",
+      "brass",
+      "cup",
+      "chalice",
+      "goblet",
+      "engraved",
+      "ornate",
+      "container"
+    ],
+    "modelPath": "/models/brass_goblets/brass_goblets.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "brass_pan_01",
+    "name": "Brass Pan 01",
+    "categories": [
+      "props",
+      "containers",
+      "decorative",
+      "dishes"
+    ],
+    "tags": [
+      "brass",
+      "pan",
+      "copper",
+      "old",
+      "metal",
+      "prop",
+      "container",
+      "cooking",
+      "pot",
+      "cookware",
+      "decorative",
+      "fancy",
+      "gold"
+    ],
+    "modelPath": "/models/brass_pan_01/brass_pan_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "brass_pot_01",
+    "name": "Brass Pot 01",
+    "categories": [
+      "props",
+      "containers",
+      "decorative"
+    ],
+    "tags": [
+      "brass",
+      "metal",
+      "prop",
+      "pot",
+      "cooking",
+      "container",
+      "pattern",
+      "decorative",
+      "copper",
+      "old",
+      "fancy",
+      "cookware"
+    ],
+    "modelPath": "/models/brass_pot_01/brass_pot_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "brass_pot_02",
+    "name": "Brass Pot 02",
+    "categories": [
+      "props",
+      "dishes",
+      "containers",
+      "decorative"
+    ],
+    "tags": [
+      "brass",
+      "metal",
+      "prop",
+      "cooking",
+      "container",
+      "pot",
+      "cookware",
+      "pan",
+      "gold",
+      "copper"
+    ],
+    "modelPath": "/models/brass_pot_02/brass_pot_02.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "brass_vase_01",
+    "name": "Brass Vase 01",
+    "categories": [
+      "decorative",
+      "vases"
+    ],
+    "tags": [
+      "brass",
+      "antique",
+      "metal",
+      "ancient",
+      "artifact",
+      "vase",
+      "old",
+      "clean"
+    ],
+    "modelPath": "/models/brass_vase_01/brass_vase_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "brass_vase_02",
+    "name": "Brass Vase 02",
+    "categories": [
+      "decorative",
+      "vases"
+    ],
+    "tags": [
+      "brass",
+      "antique",
+      "metal",
+      "ancient",
+      "old",
+      "gold",
+      "container",
+      "vase",
+      "clean",
+      "ornate",
+      "decorative",
+      "pattern"
+    ],
+    "modelPath": "/models/brass_vase_02/brass_vase_02.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "brass_vase_03",
+    "name": "Brass Vase 03",
+    "categories": [
+      "containers",
+      "props",
+      "decorative",
+      "vases"
+    ],
+    "tags": [
+      "metal",
+      "prop",
+      "brass",
+      "decorative",
+      "ornate",
+      "vase",
+      "gold",
+      "pitcher",
+      "copper",
+      "container",
+      "pattern",
+      "old",
+      "antique",
+      "fancy",
+      "decor"
+    ],
+    "modelPath": "/models/brass_vase_03/brass_vase_03.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "brass_vase_04",
+    "name": "Brass Vase 04",
+    "categories": [
+      "containers",
+      "props",
+      "vases",
+      "dishes"
+    ],
+    "tags": [
+      "vintage",
+      "fancy",
+      "metal",
+      "brass",
+      "copper",
+      "old",
+      "vase",
+      "pitcher",
+      "ornate",
+      "pattern"
+    ],
+    "modelPath": "/models/brass_vase_04/brass_vase_04.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "bronze_ray_statue",
+    "name": "Bronze Ray Statue",
+    "categories": [
+      "decorative",
+      "collection: project_lighthouse"
+    ],
+    "tags": [
+      "sculpture",
+      "ornate",
+      "artwork",
+      "art",
+      "statue",
+      "ornamental",
+      "manta ray",
+      "stingray",
+      "underwater"
+    ],
+    "modelPath": "/models/bronze_ray_statue/bronze_ray_statue.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "bronze_shark_statue",
+    "name": "Bronze Shark Statue",
+    "categories": [
+      "decorative",
+      "collection: project_lighthouse"
+    ],
+    "tags": [
+      "sculpture",
+      "ornate",
+      "artwork",
+      "art",
+      "statue",
+      "ornamental",
+      "underwater",
+      "shark",
+      "fish"
+    ],
+    "modelPath": "/models/bronze_shark_statue/bronze_shark_statue.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "bronze_whale_statue",
+    "name": "Bronze Whale Statue",
+    "categories": [
+      "decorative",
+      "collection: project_lighthouse"
+    ],
+    "tags": [
+      "sculpture",
+      "ornate",
+      "artwork",
+      "art",
+      "statue",
+      "ornamental",
+      "underwater",
+      "whale",
+      "fish"
+    ],
+    "modelPath": "/models/bronze_whale_statue/bronze_whale_statue.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "bull_head",
+    "name": "Bull Head",
+    "categories": [
+      "decorative"
+    ],
+    "tags": [
+      "antique",
+      "vintage",
+      "old",
+      "ornate",
+      "statue",
+      "sculpture",
+      "animal",
+      "art",
+      "wildlife"
+    ],
+    "modelPath": "/models/bull_head/bull_head.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "caged_hanging_light",
+    "name": "Caged Hanging Light",
+    "categories": [
+      "collection: project_lighthouse",
+      "lighting",
+      "industrial"
+    ],
+    "tags": [
+      "industrial",
+      "warehouse",
+      "ceiling-mounted",
+      "fluorescent",
+      "chain",
+      "utility",
+      "infrastructure",
+      "electrical",
+      "bunker"
+    ],
+    "modelPath": "/models/caged_hanging_light/caged_hanging_light.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "carved_wooden_elephant",
+    "name": "Carved Wooden Elephant",
+    "categories": [
+      "props",
+      "decorative"
+    ],
+    "tags": [
+      "wood",
+      "wooden",
+      "woodwork",
+      "statue",
+      "carved",
+      "animal"
+    ],
+    "modelPath": "/models/carved_wooden_elephant/carved_wooden_elephant.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "carved_wooden_plate",
+    "name": "Carved Wooden Plate",
+    "categories": [
+      "props",
+      "decorative",
+      "dishes"
+    ],
+    "tags": [
+      "vintage",
+      "wood",
+      "antique",
+      "carved",
+      "hand made",
+      "crafted",
+      "fruitbowl",
+      "plate"
+    ],
+    "modelPath": "/models/carved_wooden_plate/carved_wooden_plate.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "ceiling_fan",
+    "name": "Ceiling Fan",
+    "categories": [
+      "appliances",
+      "electronics"
+    ],
+    "tags": [
+      "utility",
+      "ceiling",
+      "air circulation",
+      "ventilation",
+      "fixture",
+      "cooling",
+      "fan",
+      "interior"
+    ],
+    "modelPath": "/models/ceiling_fan/ceiling_fan.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "ceramic_pot",
+    "name": "Ceramic Pot",
+    "categories": [
+      "containers",
+      "props",
+      "decorative",
+      "dishes",
+      "collection: project_lighthouse"
+    ],
+    "tags": [
+      "earthenware",
+      "glazed",
+      "aged",
+      "weathered",
+      "ceramic"
+    ],
+    "modelPath": "/models/ceramic_pot/ceramic_pot.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "ceramic_vase_01",
+    "name": "Ceramic Vase 01",
+    "categories": [
+      "vases",
+      "containers",
+      "decorative"
+    ],
+    "tags": [
+      "pot",
+      "clean",
+      "tall",
+      "modern",
+      "fancy",
+      "decor"
+    ],
+    "modelPath": "/models/ceramic_vase_01/ceramic_vase_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "ceramic_vase_02",
+    "name": "Ceramic Vase 02",
+    "categories": [
+      "decorative",
+      "containers",
+      "vases"
+    ],
+    "tags": [
+      "fancy",
+      "modern",
+      "vase",
+      "decor",
+      "clay",
+      "pot",
+      "painted"
+    ],
+    "modelPath": "/models/ceramic_vase_02/ceramic_vase_02.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "ceramic_vase_03",
+    "name": "Ceramic Vase 03",
+    "categories": [
+      "containers",
+      "decorative",
+      "vases"
+    ],
+    "tags": [
+      "clay",
+      "pot",
+      "exterior",
+      "decor",
+      "painted",
+      "vase",
+      "tall",
+      "modern",
+      "fancy"
+    ],
+    "modelPath": "/models/ceramic_vase_03/ceramic_vase_03.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "ceramic_vase_04",
+    "name": "Ceramic Vase 04",
+    "categories": [
+      "containers",
+      "decorative",
+      "vases"
+    ],
+    "tags": [
+      "fancy",
+      "modern",
+      "vase",
+      "decor",
+      "painted",
+      "jug",
+      "clay",
+      "pot"
+    ],
+    "modelPath": "/models/ceramic_vase_04/ceramic_vase_04.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "chess_set",
+    "name": "Chess Set",
+    "categories": [
+      "decorative",
+      "props"
+    ],
+    "tags": [
+      "boardgame",
+      "game",
+      "old",
+      "decor",
+      "home",
+      "vintage",
+      "antique",
+      "tabletop",
+      "display piece",
+      "ornamental",
+      "elegant"
+    ],
+    "modelPath": "/models/chess_set/chess_set.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "chinese_armchair",
+    "name": "Chinese Armchair",
+    "categories": [
+      "furniture",
+      "seating"
+    ],
+    "tags": [
+      "vintage",
+      "antique",
+      "ornate",
+      "chinese",
+      "asian",
+      "varnished",
+      "elegant",
+      "wooden",
+      "traditional"
+    ],
+    "modelPath": "/models/chinese_armchair/chinese_armchair.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "chinese_cabinet",
+    "name": "Chinese Cabinet",
+    "categories": [
+      "shelves",
+      "furniture"
+    ],
+    "tags": [
+      "old",
+      "wooden",
+      "vintage",
+      "antique",
+      "ornate",
+      "traditional",
+      "asian",
+      "elegant",
+      "ornamental"
+    ],
+    "modelPath": "/models/chinese_cabinet/chinese_cabinet.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "chinese_chandelier",
+    "name": "Chinese Chandelier",
+    "categories": [
+      "lighting",
+      "decorative"
+    ],
+    "tags": [
+      "vintage",
+      "antique",
+      "old",
+      "wooden",
+      "ornate",
+      "traditional",
+      "asian"
+    ],
+    "modelPath": "/models/chinese_chandelier/chinese_chandelier.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "chinese_commode",
+    "name": "Chinese Commode",
+    "categories": [
+      "furniture",
+      "shelves"
+    ],
+    "tags": [
+      "vintage",
+      "antique",
+      "wooden",
+      "ornate",
+      "asian",
+      "traditional",
+      "cabinet"
+    ],
+    "modelPath": "/models/chinese_commode/chinese_commode.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "chinese_console_table",
+    "name": "Chinese Console Table",
+    "categories": [
+      "table",
+      "furniture"
+    ],
+    "tags": [
+      "vintage",
+      "antique",
+      "wooden",
+      "ornate",
+      "traditional",
+      "asian"
+    ],
+    "modelPath": "/models/chinese_console_table/chinese_console_table.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "chinese_screen_panels",
+    "name": "Chinese Screen Panels",
+    "categories": [
+      "furniture"
+    ],
+    "tags": [
+      "vintage",
+      "antique",
+      "old",
+      "wooden",
+      "ornate",
+      "asian",
+      "divider",
+      "wall"
+    ],
+    "modelPath": "/models/chinese_screen_panels/chinese_screen_panels.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "chinese_sofa",
+    "name": "Chinese Sofa",
+    "categories": [
+      "furniture",
+      "seating"
+    ],
+    "tags": [
+      "vintage",
+      "antique",
+      "wooden",
+      "ornate",
+      "traditional",
+      "fancy"
+    ],
+    "modelPath": "/models/chinese_sofa/chinese_sofa.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "chinese_stool",
+    "name": "Chinese Stool",
+    "categories": [
+      "seating",
+      "furniture"
+    ],
+    "tags": [
+      "vintage",
+      "antique",
+      "wooden",
+      "ornate",
+      "traditional",
+      "asian"
+    ],
+    "modelPath": "/models/chinese_stool/chinese_stool.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "chinese_tea_table",
+    "name": "Chinese Tea Table",
+    "categories": [
+      "table",
+      "furniture"
+    ],
+    "tags": [
+      "vintage",
+      "antique",
+      "old",
+      "wooden",
+      "ornate",
+      "traditional"
+    ],
+    "modelPath": "/models/chinese_tea_table/chinese_tea_table.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "classic_laptop",
+    "name": "Classic Laptop",
+    "categories": [
+      "collection: project_lighthouse",
+      "office",
+      "electronics"
+    ],
+    "tags": [
+      "old",
+      "vintage",
+      "beige",
+      "notebook",
+      "lcd",
+      "trackball"
+    ],
+    "modelPath": "/models/classic_laptop/classic_laptop.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "clipboard",
+    "name": "Clipboard",
+    "categories": [
+      "collection: project_lighthouse",
+      "office",
+      "props"
+    ],
+    "tags": [
+      "writing",
+      "desk",
+      "stationery",
+      "metal",
+      "scratched"
+    ],
+    "modelPath": "/models/clipboard/clipboard.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "coffee_table_round_01",
+    "name": "Coffee Table Round 01",
+    "categories": [
+      "furniture",
+      "table"
+    ],
+    "tags": [
+      "modern",
+      "marble",
+      "tea",
+      "coffee",
+      "metal",
+      "sleek",
+      "contemporary",
+      "cocktail"
+    ],
+    "modelPath": "/models/coffee_table_round_01/coffee_table_round_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "concrete_cat_statue",
+    "name": "Concrete Cat Statue",
+    "categories": [
+      "decorative"
+    ],
+    "tags": [
+      "garden",
+      "outdoor",
+      "landscaping",
+      "gardening",
+      "statue",
+      "concrete",
+      "sculpture",
+      "cat",
+      "lawn decoration"
+    ],
+    "modelPath": "/models/concrete_cat_statue/concrete_cat_statue.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "dartboard",
+    "name": "Dartboard",
+    "categories": [
+      "props",
+      "decorative",
+      "wall decoration",
+      "collection: the_shed"
+    ],
+    "tags": [
+      "shed",
+      "bar",
+      "activities",
+      "darts",
+      "game",
+      "toy",
+      "pub",
+      "sports",
+      "sport",
+      "fun",
+      "entertainment",
+      "competition",
+      "target",
+      "bullseye",
+      "indoor games"
+    ],
+    "modelPath": "/models/dartboard/dartboard.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "decorative_book_set_01",
+    "name": "Decorative Book Set 01",
+    "categories": [
+      "props",
+      "decorative",
+      "books"
+    ],
+    "tags": [
+      "bookshelf",
+      "books",
+      "reading",
+      "library",
+      "collection"
+    ],
+    "modelPath": "/models/decorative_book_set_01/decorative_book_set_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "desk_lamp_arm_01",
+    "name": "Desk Lamp Arm 01",
+    "categories": [
+      "lighting",
+      "rigged",
+      "collection: the_shed"
+    ],
+    "tags": [
+      "industrial",
+      "lamp",
+      "mounted",
+      "fixed",
+      "desk",
+      "table",
+      "light",
+      "arm"
+    ],
+    "modelPath": "/models/desk_lamp_arm_01/desk_lamp_arm_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "dining_chair_02",
+    "name": "Dining Chair 02",
+    "categories": [
+      "furniture",
+      "seating"
+    ],
+    "tags": [
+      "modern",
+      "chair",
+      "seat",
+      "dining",
+      "fancy",
+      "leather"
+    ],
+    "modelPath": "/models/dining_chair_02/dining_chair_02.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "dining_table",
+    "name": "Dining Table",
+    "categories": [
+      "collection: project_lighthouse",
+      "furniture",
+      "table"
+    ],
+    "tags": [
+      "old",
+      "scratched",
+      "cloth-covered",
+      "rectangular",
+      "checkered-tablecloth",
+      "tapered-legs",
+      "worn"
+    ],
+    "modelPath": "/models/dining_table/dining_table.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "drawer_cabinet",
+    "name": "Drawer Cabinet",
+    "categories": [
+      "furniture"
+    ],
+    "tags": [
+      "wood",
+      "furniture",
+      "shelf",
+      "drawer",
+      "metal",
+      "modern"
+    ],
+    "modelPath": "/models/drawer_cabinet/drawer_cabinet.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "drill_press_01",
+    "name": "Drill Press 01",
+    "categories": [
+      "collection: project_lighthouse",
+      "appliances",
+      "electronics",
+      "industrial",
+      "tools"
+    ],
+    "tags": [
+      "machinery",
+      "workshop",
+      "chuck",
+      "garage",
+      "construction"
+    ],
+    "modelPath": "/models/drill_press_01/drill_press_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "electric_stove",
+    "name": "Electric Stove",
+    "categories": [
+      "electronics",
+      "appliances",
+      "rigged",
+      "props"
+    ],
+    "tags": [
+      "kitchen appliance",
+      "cooking equipment",
+      "stovetop",
+      "oven",
+      "cooktop",
+      "simple",
+      "white",
+      "cooking",
+      "kitchen"
+    ],
+    "modelPath": "/models/electric_stove/electric_stove.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "exterior_aircon_unit",
+    "name": "Exterior Aircon Unit",
+    "categories": [
+      "appliances",
+      "industrial",
+      "electronics",
+      "collection: hidden_alley"
+    ],
+    "tags": [
+      "cooling system",
+      "aircon",
+      "climatecontrol",
+      "ventilation",
+      "utility",
+      "infrastructure"
+    ],
+    "modelPath": "/models/exterior_aircon_unit/exterior_aircon_unit.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "fancy_picture_frame_01",
+    "name": "Fancy Picture Frame 01",
+    "categories": [
+      "decorative",
+      "wall decoration"
+    ],
+    "tags": [
+      "art",
+      "vintage",
+      "old",
+      "dutch",
+      "painting",
+      "oil",
+      "antique",
+      "fancy",
+      "frame",
+      "picture"
+    ],
+    "modelPath": "/models/fancy_picture_frame_01/fancy_picture_frame_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "fancy_picture_frame_02",
+    "name": "Fancy Picture Frame 02",
+    "categories": [
+      "decorative",
+      "wall decoration"
+    ],
+    "tags": [
+      "art",
+      "vintage",
+      "old",
+      "dutch",
+      "painting",
+      "oil",
+      "antique",
+      "fancy",
+      "frame",
+      "picture"
+    ],
+    "modelPath": "/models/fancy_picture_frame_02/fancy_picture_frame_02.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "filmstrip_projector_8mm",
+    "name": "Filmstrip Projector 8mm",
+    "categories": [
+      "electronics",
+      "appliances",
+      "collection: project_lighthouse"
+    ],
+    "tags": [
+      "antique",
+      "vintage",
+      "old",
+      "retro",
+      "film",
+      "movie",
+      "theater"
+    ],
+    "modelPath": "/models/filmstrip_projector_8mm/filmstrip_projector_8mm.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "fire_alarm",
+    "name": "Fire Alarm",
+    "categories": [
+      "collection: project_lighthouse",
+      "industrial",
+      "office",
+      "wall decoration"
+    ],
+    "tags": [
+      "alarm",
+      "emergency",
+      "red",
+      "safety",
+      "firefighting"
+    ],
+    "modelPath": "/models/fire_alarm/fire_alarm.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "folding_wooden_stool",
+    "name": "Folding Wooden Stool",
+    "categories": [
+      "seating",
+      "furniture"
+    ],
+    "tags": [
+      "workshop",
+      "garage",
+      "woodwork",
+      "camping",
+      "folding stool",
+      "portable",
+      "compact",
+      "outdoor",
+      "garden"
+    ],
+    "modelPath": "/models/folding_wooden_stool/folding_wooden_stool.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "gallinera_chair",
+    "name": "Gallinera Chair",
+    "categories": [
+      "furniture",
+      "seating"
+    ],
+    "tags": [
+      "vintage",
+      "antique",
+      "philippines",
+      "traditional",
+      "old",
+      "wooden"
+    ],
+    "modelPath": "/models/gallinera_chair/gallinera_chair.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "gallinera_table",
+    "name": "Gallinera Table",
+    "categories": [
+      "furniture",
+      "table"
+    ],
+    "tags": [
+      "vintage",
+      "antique",
+      "philippines",
+      "traditional",
+      "old",
+      "wooden"
+    ],
+    "modelPath": "/models/gallinera_table/gallinera_table.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "gaming_console",
+    "name": "Gaming Console",
+    "categories": [
+      "appliances",
+      "electronics"
+    ],
+    "tags": [
+      "game",
+      "gaming",
+      "console",
+      "playstation",
+      "entertainment",
+      "video games",
+      "xbox"
+    ],
+    "modelPath": "/models/gaming_console/gaming_console.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "garden_gnome",
+    "name": "Garden Gnome",
+    "categories": [
+      "decorative",
+      "collection: the_shed"
+    ],
+    "tags": [
+      "shed",
+      "outdoor",
+      "garage",
+      "garden",
+      "gardening",
+      "farmhouse",
+      "greenhouse"
+    ],
+    "modelPath": "/models/garden_gnome/garden_gnome.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "garden_hose_wall_mounted_01",
+    "name": "Garden Hose Wall Mounted 01",
+    "categories": [
+      "wall decoration",
+      "plants",
+      "collection: the_shed"
+    ],
+    "tags": [
+      "garden",
+      "gardening",
+      "landscaping",
+      "pipes",
+      "cable",
+      "valve",
+      "hose",
+      "water",
+      "tap",
+      "outdoor",
+      "green",
+      "shed",
+      "irrigation",
+      "greenhouse",
+      "farm",
+      "farmhouse"
+    ],
+    "modelPath": "/models/garden_hose_wall_mounted_01/garden_hose_wall_mounted_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "garden_sprinkler_01",
+    "name": "Garden Sprinkler 01",
+    "categories": [
+      "tools",
+      "appliances",
+      "collection: the_shed"
+    ],
+    "tags": [
+      "garden",
+      "gardening",
+      "shed",
+      "outdoor",
+      "garage",
+      "landscaping",
+      "water",
+      "tap",
+      "valve",
+      "hose",
+      "sprinkler",
+      "irrigation",
+      "greenhouse",
+      "farm"
+    ],
+    "modelPath": "/models/garden_sprinkler_01/garden_sprinkler_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "gothic_coffee_table",
+    "name": "Gothic Coffee Table",
+    "categories": [
+      "furniture",
+      "table"
+    ],
+    "tags": [
+      "vintage",
+      "antique",
+      "old",
+      "wooden",
+      "gothic",
+      "medieval",
+      "dark decor"
+    ],
+    "modelPath": "/models/gothic_coffee_table/gothic_coffee_table.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "gothic_statue",
+    "name": "Gothic Statue",
+    "categories": [
+      "collection: project_lighthouse",
+      "decorative"
+    ],
+    "tags": [
+      "old",
+      "stones",
+      "sculpture",
+      "medieval",
+      "statue",
+      "artwork",
+      "ornamental",
+      "gothic",
+      "weathered",
+      "ornate"
+    ],
+    "modelPath": "/models/gothic_statue/gothic_statue.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "hanging_industrial_lamp",
+    "name": "Hanging Industrial Lamp",
+    "categories": [
+      "lighting"
+    ],
+    "tags": [
+      "industrial lighting",
+      "hanging lamp",
+      "warehouse lighting",
+      "bunker",
+      "metal lamp",
+      "factory",
+      "warehouse"
+    ],
+    "modelPath": "/models/hanging_industrial_lamp/hanging_industrial_lamp.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "hanging_picture_frame_01",
+    "name": "Hanging Picture Frame 01",
+    "categories": [
+      "decorative",
+      "wall decoration"
+    ],
+    "tags": [
+      "modern",
+      "minimalist",
+      "clean",
+      "frame",
+      "simple",
+      "art"
+    ],
+    "modelPath": "/models/hanging_picture_frame_01/hanging_picture_frame_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "hanging_picture_frame_02",
+    "name": "Hanging Picture Frame 02",
+    "categories": [
+      "decorative",
+      "wall decoration"
+    ],
+    "tags": [
+      "wood",
+      "painting",
+      "old",
+      "art",
+      "frame"
+    ],
+    "modelPath": "/models/hanging_picture_frame_02/hanging_picture_frame_02.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "hanging_picture_frame_03",
+    "name": "Hanging Picture Frame 03",
+    "categories": [
+      "wall decoration",
+      "decorative"
+    ],
+    "tags": [
+      "vintage",
+      "photo",
+      "photograph",
+      "old",
+      "antique",
+      "picture",
+      "fancy",
+      "wooden",
+      "varnished"
+    ],
+    "modelPath": "/models/hanging_picture_frame_03/hanging_picture_frame_03.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "horse_head",
+    "name": "Horse Head",
+    "categories": [
+      "decorative"
+    ],
+    "tags": [
+      "old",
+      "vintage",
+      "antique",
+      "ornate",
+      "sculpture",
+      "artwork",
+      "art",
+      "statue",
+      "ornamental"
+    ],
+    "modelPath": "/models/horse_head/horse_head.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "horse_statue_01",
+    "name": "Horse Statue 01",
+    "categories": [
+      "props",
+      "decorative"
+    ],
+    "tags": [
+      "decorative",
+      "horse",
+      "statue",
+      "figurine",
+      "porcelain",
+      "animal",
+      "sculpture",
+      "white",
+      "fancy"
+    ],
+    "modelPath": "/models/horse_statue_01/horse_statue_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "industrial_caged_sconce",
+    "name": "Industrial Caged Sconce",
+    "categories": [
+      "collection: project_lighthouse",
+      "lighting",
+      "industrial"
+    ],
+    "tags": [
+      "caged lamp",
+      "pipe fixture",
+      "guarded light",
+      "utility lighting",
+      "warehouse",
+      "factory",
+      "bunker",
+      "wall light",
+      "modular",
+      "heavy duty"
+    ],
+    "modelPath": "/models/industrial_caged_sconce/industrial_caged_sconce.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "industrial_coffee_table",
+    "name": "Industrial Coffee Table",
+    "categories": [
+      "furniture",
+      "table"
+    ],
+    "tags": [
+      "metal",
+      "industrial",
+      "steel",
+      "rustic",
+      "workshop",
+      "metal frame",
+      "garage",
+      "urban loft"
+    ],
+    "modelPath": "/models/industrial_coffee_table/industrial_coffee_table.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "industrial_microscope",
+    "name": "Industrial Microscope",
+    "categories": [
+      "collection: project_lighthouse",
+      "industrial",
+      "tools",
+      "appliances"
+    ],
+    "tags": [
+      "lab",
+      "laboratory",
+      "science",
+      "testing",
+      "equipment",
+      "optical"
+    ],
+    "modelPath": "/models/industrial_microscope/industrial_microscope.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "industrial_pastic_container",
+    "name": "Industrial Plastic Container",
+    "categories": [
+      "collection: project_lighthouse",
+      "containers",
+      "office",
+      "industrial"
+    ],
+    "tags": [
+      "worn",
+      "storage",
+      "rectangular",
+      "dirty"
+    ],
+    "modelPath": "/models/industrial_pastic_container/industrial_pastic_container.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "industrial_pipe_lamp",
+    "name": "Industrial Pipe Lamp",
+    "categories": [
+      "collection: project_lighthouse",
+      "industrial",
+      "lighting"
+    ],
+    "tags": [
+      "desk light",
+      "lamp",
+      "metal",
+      "industrial",
+      "workshop lamp",
+      "mechanical"
+    ],
+    "modelPath": "/models/industrial_pipe_lamp/industrial_pipe_lamp.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "industrial_storage_cart",
+    "name": "Industrial Storage Cart",
+    "categories": [
+      "collection: project_lighthouse",
+      "table",
+      "furniture",
+      "industrial"
+    ],
+    "tags": [
+      "old",
+      "metal",
+      "steel",
+      "container",
+      "garage",
+      "workshop",
+      "rusted",
+      "shed",
+      "rolling",
+      "workbench",
+      "casters"
+    ],
+    "modelPath": "/models/industrial_storage_cart/industrial_storage_cart.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "industrial_wall_lamp",
+    "name": "Industrial Wall Lamp",
+    "categories": [
+      "lighting"
+    ],
+    "tags": [
+      "industrial",
+      "factory",
+      "warehouse",
+      "wall light",
+      "metal",
+      "bunker",
+      "mine"
+    ],
+    "modelPath": "/models/industrial_wall_lamp/industrial_wall_lamp.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "industrial_wall_sconce",
+    "name": "Industrial Wall Sconce",
+    "categories": [
+      "lighting",
+      "decorative"
+    ],
+    "tags": [
+      "old",
+      "vintage",
+      "antique",
+      "fancy",
+      "farmhouse",
+      "rustic",
+      "brass",
+      "copper",
+      "wall light"
+    ],
+    "modelPath": "/models/industrial_wall_sconce/industrial_wall_sconce.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "jug_01",
+    "name": "Jug 01",
+    "categories": [
+      "props",
+      "decorative",
+      "dishes",
+      "containers"
+    ],
+    "tags": [
+      "ceramic",
+      "milk",
+      "white",
+      "antique",
+      "vintage",
+      "old",
+      "fancy",
+      "decorative"
+    ],
+    "modelPath": "/models/jug_01/jug_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "katana_stand_01",
+    "name": "Katana Stand 01",
+    "categories": [
+      "props",
+      "decorative"
+    ],
+    "tags": [
+      "katana",
+      "stand",
+      "wooden",
+      "painted",
+      "worn",
+      "simple",
+      "display"
+    ],
+    "modelPath": "/models/katana_stand_01/katana_stand_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "lambis_shell",
+    "name": "Lambis Shell",
+    "categories": [
+      "decorative",
+      "nature"
+    ],
+    "tags": [
+      "shell",
+      "beach",
+      "shore",
+      "shoreline",
+      "underwater",
+      "coral",
+      "reef",
+      "ocean",
+      "sea",
+      "marine life",
+      "mollusk"
+    ],
+    "modelPath": "/models/lambis_shell/lambis_shell.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "lantern_chandelier_01",
+    "name": "Lantern Chandelier 01",
+    "categories": [
+      "lighting"
+    ],
+    "tags": [
+      "lighting",
+      "old",
+      "victorian",
+      "metal",
+      "antique",
+      "ornate",
+      "vintage",
+      "brass",
+      "fancy",
+      "ornamental",
+      "chandelier",
+      "light",
+      "indoor light",
+      "light fixture"
+    ],
+    "modelPath": "/models/lantern_chandelier_01/lantern_chandelier_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "lifebuoy",
+    "name": "Lifebuoy",
+    "categories": [
+      "collection: project_lighthouse",
+      "wall decoration",
+      "industrial"
+    ],
+    "tags": [
+      "weathered",
+      "safety",
+      "lifering",
+      "marine",
+      "nautical",
+      "flotation device",
+      "life preserver"
+    ],
+    "modelPath": "/models/lifebuoy/lifebuoy.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "lightbulb_01",
+    "name": "Lightbulb 01",
+    "categories": [
+      "lighting",
+      "collection: the_shed"
+    ],
+    "tags": [
+      "globe",
+      "filament",
+      "light",
+      "lamp",
+      "shed",
+      "bulb",
+      "illumination",
+      "incandescent",
+      "coil filament",
+      "glass bulb"
+    ],
+    "modelPath": "/models/lightbulb_01/lightbulb_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "lightbulb_led",
+    "name": "Lightbulb Led",
+    "categories": [
+      "electronics",
+      "lighting",
+      "collection: the_shed"
+    ],
+    "tags": [
+      "shed",
+      "indoor",
+      "interrior",
+      "globe",
+      "light"
+    ],
+    "modelPath": "/models/lightbulb_led/lightbulb_led.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "lion_head",
+    "name": "Lion Head",
+    "categories": [
+      "decorative"
+    ],
+    "tags": [
+      "old",
+      "wooden",
+      "vintage",
+      "sculpture",
+      "ornament",
+      "wildlife",
+      "figurine",
+      "art",
+      "animal"
+    ],
+    "modelPath": "/models/lion_head/lion_head.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "lubricant_spray",
+    "name": "Lubricant Spray",
+    "categories": [
+      "props",
+      "containers",
+      "tools",
+      "decorative",
+      "collection: the_shed"
+    ],
+    "tags": [
+      "shed",
+      "workshop",
+      "metal",
+      "garage",
+      "cleaning",
+      "spray",
+      "can",
+      "oil",
+      "grease",
+      "metal can",
+      "lubricant",
+      "maintenance",
+      "machinery",
+      "aerosol",
+      "clutter",
+      "rust prevention"
+    ],
+    "modelPath": "/models/lubricant_spray/lubricant_spray.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "mantel_clock_01",
+    "name": "Mantel Clock 01",
+    "categories": [
+      "decorative",
+      "appliances",
+      "rigged"
+    ],
+    "tags": [
+      "vintage",
+      "antique",
+      "old",
+      "clock",
+      "time",
+      "wooden",
+      "shelf",
+      "mantel",
+      "fireplace",
+      "ornate"
+    ],
+    "modelPath": "/models/mantel_clock_01/mantel_clock_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "marble_bust_01",
+    "name": "Marble Bust 01",
+    "categories": [
+      "decorative"
+    ],
+    "tags": [
+      "sculpt",
+      "sculpture",
+      "statue",
+      "art",
+      "sandstone",
+      "bust",
+      "marble",
+      "mansion",
+      "renaissance",
+      "man"
+    ],
+    "modelPath": "/models/marble_bust_01/marble_bust_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "metal_jug",
+    "name": "Metal Jug",
+    "categories": [
+      "containers",
+      "decorative",
+      "vases"
+    ],
+    "tags": [
+      "milk jug",
+      "metal",
+      "vase",
+      "farmhouse",
+      "countryside",
+      "kitchen decor",
+      "vintage",
+      "farmhouse decor",
+      "pitcher",
+      "rustic"
+    ],
+    "modelPath": "/models/metal_jug/metal_jug.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "metal_office_desk",
+    "name": "Metal Office Desk",
+    "categories": [
+      "collection: project_lighthouse",
+      "furniture",
+      "table",
+      "office"
+    ],
+    "tags": [
+      "old",
+      "vintage",
+      "metal",
+      "dirty",
+      "scratched",
+      "industrial",
+      "rectangular"
+    ],
+    "modelPath": "/models/metal_office_desk/metal_office_desk.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "metal_stool_01",
+    "name": "Metal Stool 01",
+    "categories": [
+      "collection: project_lighthouse",
+      "furniture",
+      "seating"
+    ],
+    "tags": [
+      "vintage",
+      "antique",
+      "old",
+      "leather",
+      "round",
+      "metal",
+      "industrial",
+      "barstool"
+    ],
+    "modelPath": "/models/metal_stool_01/metal_stool_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "metal_stool_02",
+    "name": "Metal Stool 02",
+    "categories": [
+      "collection: project_lighthouse",
+      "furniture",
+      "seating"
+    ],
+    "tags": [
+      "wooden",
+      "metal frame",
+      "industrial",
+      "small",
+      "workshop",
+      "round"
+    ],
+    "modelPath": "/models/metal_stool_02/metal_stool_02.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "metal_stool_03",
+    "name": "Metal Stool 03",
+    "categories": [
+      "collection: project_lighthouse",
+      "furniture",
+      "seating"
+    ],
+    "tags": [
+      "old",
+      "metal",
+      "barstool",
+      "backrest",
+      "heavy-duty",
+      "weathered",
+      "rusted",
+      "workshop"
+    ],
+    "modelPath": "/models/metal_stool_03/metal_stool_03.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "mid_century_lounge_chair",
+    "name": "Mid Century Lounge Chair",
+    "categories": [
+      "furniture",
+      "seating"
+    ],
+    "tags": [
+      "wooden",
+      "leather",
+      "couch",
+      "lounge",
+      "architecture",
+      "modern",
+      "interior design",
+      "home decor",
+      "living room",
+      "comfort",
+      "stylish",
+      "recliner",
+      "retro",
+      "classy"
+    ],
+    "modelPath": "/models/mid_century_lounge_chair/mid_century_lounge_chair.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "modern_arm_chair_01",
+    "name": "Modern Arm Chair 01",
+    "categories": [
+      "furniture",
+      "seating",
+      "office"
+    ],
+    "tags": [
+      "wood",
+      "leather",
+      "fancy",
+      "modern",
+      "chair",
+      "contemporary",
+      "wooden",
+      "lounge"
+    ],
+    "modelPath": "/models/modern_arm_chair_01/modern_arm_chair_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "modern_ceiling_lamp_01",
+    "name": "Modern Ceiling Lamp 01",
+    "categories": [
+      "lighting"
+    ],
+    "tags": [
+      "lighting",
+      "light",
+      "modern",
+      "glass",
+      "round",
+      "hanging",
+      "hanging lamp",
+      "ceiling lamp",
+      "decorative lighting",
+      "modern decor",
+      "interior design"
+    ],
+    "modelPath": "/models/modern_ceiling_lamp_01/modern_ceiling_lamp_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "modern_coffee_table_01",
+    "name": "Modern Coffee Table 01",
+    "categories": [
+      "furniture",
+      "table"
+    ],
+    "tags": [
+      "table",
+      "contemporary",
+      "modern",
+      "rectangular",
+      "stone",
+      "wood",
+      "deco",
+      "clean"
+    ],
+    "modelPath": "/models/modern_coffee_table_01/modern_coffee_table_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "modern_coffee_table_02",
+    "name": "Modern Coffee Table 02",
+    "categories": [
+      "furniture",
+      "table"
+    ],
+    "tags": [
+      "contemporary",
+      "modern",
+      "rectangular",
+      "stone",
+      "wood",
+      "deco",
+      "clean"
+    ],
+    "modelPath": "/models/modern_coffee_table_02/modern_coffee_table_02.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "modern_wooden_cabinet",
+    "name": "Modern Wooden Cabinet",
+    "categories": [
+      "furniture",
+      "table"
+    ],
+    "tags": [
+      "cabinet",
+      "wood",
+      "modern",
+      "minimalist",
+      "interrior",
+      "living room",
+      "contemporary",
+      "design"
+    ],
+    "modelPath": "/models/modern_wooden_cabinet/modern_wooden_cabinet.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "modular_street_seating",
+    "name": "Modular Street Seating",
+    "categories": [
+      "furniture",
+      "seating",
+      "collection: hidden_alley"
+    ],
+    "tags": [
+      "chair",
+      "outdoor",
+      "urban",
+      "cityscape",
+      "contemporary",
+      "bench",
+      "city",
+      "infrastructure"
+    ],
+    "modelPath": "/models/modular_street_seating/modular_street_seating.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "mounted_fluorescent_lights",
+    "name": "Mounted Fluorescent Lights",
+    "categories": [
+      "collection: project_lighthouse",
+      "lighting",
+      "industrial"
+    ],
+    "tags": [
+      "workshop",
+      "fluorescent_tube",
+      "utility_lighting",
+      "garage_light",
+      "workshop_light",
+      "shed",
+      "garage"
+    ],
+    "modelPath": "/models/mounted_fluorescent_lights/mounted_fluorescent_lights.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "office_notepads",
+    "name": "Office Notepads",
+    "categories": [
+      "collection: project_lighthouse",
+      "props",
+      "office"
+    ],
+    "tags": [
+      "stationery",
+      "notepad",
+      "lined paper",
+      "blank paper",
+      "art supplies",
+      "office",
+      "admin",
+      "sticky notes",
+      "filing",
+      "writing",
+      "business"
+    ],
+    "modelPath": "/models/office_notepads/office_notepads.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "old_bed_frame",
+    "name": "Old Bed Frame",
+    "categories": [
+      "collection: project_lighthouse",
+      "bed",
+      "furniture"
+    ],
+    "tags": [
+      "rusty",
+      "metal",
+      "bedroom",
+      "vintage",
+      "antique",
+      "hospital",
+      "traditional"
+    ],
+    "modelPath": "/models/old_bed_frame/old_bed_frame.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "ornate_mirror_01",
+    "name": "Ornate Mirror 01",
+    "categories": [
+      "decorative",
+      "wall decoration",
+      "furniture"
+    ],
+    "tags": [
+      "decor",
+      "decoration",
+      "ornate",
+      "fancy",
+      "wealthy",
+      "mansion",
+      "manor",
+      "vintage",
+      "victorian",
+      "floral",
+      "gold",
+      "mirror"
+    ],
+    "modelPath": "/models/ornate_mirror_01/ornate_mirror_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "outdoor_table_chair_set_01",
+    "name": "Outdoor Table Chair Set 01",
+    "categories": [
+      "furniture",
+      "seating"
+    ],
+    "tags": [
+      "outdoor",
+      "foldable",
+      "folding",
+      "seating",
+      "coffee",
+      "diner",
+      "street",
+      "urban",
+      "deli",
+      "wood",
+      "city",
+      "cafe"
+    ],
+    "modelPath": "/models/outdoor_table_chair_set_01/outdoor_table_chair_set_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "painted_wooden_bench",
+    "name": "Painted Wooden Bench",
+    "categories": [
+      "furniture",
+      "seating"
+    ],
+    "tags": [
+      "vintage",
+      "old",
+      "wooden",
+      "worn",
+      "antique",
+      "farmhouse",
+      "aged",
+      "rustic",
+      "small",
+      "seat",
+      "stool"
+    ],
+    "modelPath": "/models/painted_wooden_bench/painted_wooden_bench.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "painted_wooden_cabinet",
+    "name": "Painted Wooden Cabinet",
+    "categories": [
+      "furniture",
+      "shelves"
+    ],
+    "tags": [
+      "old",
+      "worn",
+      "antique",
+      "wooden",
+      "vintage",
+      "colonial",
+      "farmhouse",
+      "storage",
+      "aged",
+      "rustic",
+      "weathered"
+    ],
+    "modelPath": "/models/painted_wooden_cabinet/painted_wooden_cabinet.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "painted_wooden_cabinet_02",
+    "name": "Painted Wooden Cabinet 02",
+    "categories": [
+      "furniture",
+      "shelves"
+    ],
+    "tags": [
+      "storage",
+      "cabinet",
+      "wood",
+      "vintage",
+      "rustic",
+      "worn",
+      "carpentry",
+      "aged",
+      "bookcase"
+    ],
+    "modelPath": "/models/painted_wooden_cabinet_02/painted_wooden_cabinet_02.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "painted_wooden_chair_01",
+    "name": "Painted Wooden Chair 01",
+    "categories": [
+      "furniture",
+      "seating"
+    ],
+    "tags": [
+      "chair",
+      "wood",
+      "painted",
+      "farmhouse",
+      "dining",
+      "diner",
+      "american",
+      "kitchen"
+    ],
+    "modelPath": "/models/painted_wooden_chair_01/painted_wooden_chair_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "painted_wooden_chair_02",
+    "name": "Painted Wooden Chair 02",
+    "categories": [
+      "furniture",
+      "seating"
+    ],
+    "tags": [
+      "old",
+      "wooden",
+      "vintage",
+      "antique",
+      "farmhouse",
+      "seat",
+      "dining",
+      "chair"
+    ],
+    "modelPath": "/models/painted_wooden_chair_02/painted_wooden_chair_02.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "painted_wooden_nightstand",
+    "name": "Painted Wooden Nightstand",
+    "categories": [
+      "furniture",
+      "table"
+    ],
+    "tags": [
+      "old",
+      "wooden",
+      "worn",
+      "vintage",
+      "antique",
+      "aged",
+      "bedside",
+      "bedroom",
+      "night",
+      "table"
+    ],
+    "modelPath": "/models/painted_wooden_nightstand/painted_wooden_nightstand.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "painted_wooden_shelves",
+    "name": "Painted Wooden Shelves",
+    "categories": [
+      "furniture",
+      "shelves"
+    ],
+    "tags": [
+      "old",
+      "wooden",
+      "worn",
+      "vintage",
+      "farmhouse",
+      "aged"
+    ],
+    "modelPath": "/models/painted_wooden_shelves/painted_wooden_shelves.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "painted_wooden_sofa",
+    "name": "Painted Wooden Sofa",
+    "categories": [
+      "furniture",
+      "seating"
+    ],
+    "tags": [
+      "chair",
+      "outdoor",
+      "couch",
+      "wooden",
+      "vintage",
+      "aged"
+    ],
+    "modelPath": "/models/painted_wooden_sofa/painted_wooden_sofa.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "painted_wooden_stool",
+    "name": "Painted Wooden Stool",
+    "categories": [
+      "seating",
+      "furniture"
+    ],
+    "tags": [
+      "painted",
+      "worn",
+      "old",
+      "antique",
+      "vintage",
+      "farmhouse",
+      "rustic",
+      "carpentry",
+      "aged",
+      "chair"
+    ],
+    "modelPath": "/models/painted_wooden_stool/painted_wooden_stool.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "painted_wooden_table",
+    "name": "Painted Wooden Table",
+    "categories": [
+      "furniture",
+      "table"
+    ],
+    "tags": [
+      "old",
+      "wooden",
+      "vintage",
+      "farmhouse",
+      "aged",
+      "worn",
+      "carpentry"
+    ],
+    "modelPath": "/models/painted_wooden_table/painted_wooden_table.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "pastic_torch_6v",
+    "name": "Pastic Torch 6v",
+    "categories": [
+      "collection: project_lighthouse",
+      "lighting",
+      "tools",
+      "electronics",
+      "props"
+    ],
+    "tags": [
+      "plastic",
+      "lighting",
+      "flashlight",
+      "spotlight"
+    ],
+    "modelPath": "/models/pastic_torch_6v/pastic_torch_6v.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "planter_box_01",
+    "name": "Planter Box 01",
+    "categories": [
+      "decorative",
+      "containers",
+      "potted plants",
+      "collection: the_shed"
+    ],
+    "tags": [
+      "old",
+      "wooden",
+      "wood",
+      "farmhouse",
+      "shed",
+      "outdoor",
+      "gardening",
+      "greenhouse",
+      "landscaping",
+      "garden",
+      "farm",
+      "planter",
+      "flower box",
+      "planters"
+    ],
+    "modelPath": "/models/planter_box_01/planter_box_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "planter_box_02",
+    "name": "Planter Box 02",
+    "categories": [
+      "containers",
+      "decorative",
+      "potted plants",
+      "collection: the_shed"
+    ],
+    "tags": [
+      "old",
+      "wooden",
+      "wood",
+      "worn",
+      "shed",
+      "outdoor",
+      "gardening",
+      "farm",
+      "greenhouse",
+      "landscaping",
+      "farmhouse",
+      "garden",
+      "flower box",
+      "planters"
+    ],
+    "modelPath": "/models/planter_box_02/planter_box_02.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "planter_box_03",
+    "name": "Planter Box 03",
+    "categories": [
+      "containers",
+      "decorative",
+      "potted plants",
+      "collection: the_shed"
+    ],
+    "tags": [
+      "old",
+      "wooden",
+      "wood",
+      "shed",
+      "farm",
+      "gardening",
+      "landscaping",
+      "garden",
+      "greenhouse",
+      "planters",
+      "farmhouse",
+      "outdoor",
+      "flower box"
+    ],
+    "modelPath": "/models/planter_box_03/planter_box_03.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "planter_pot_clay",
+    "name": "Planter Pot Clay",
+    "categories": [
+      "containers",
+      "vases",
+      "collection: the_shed"
+    ],
+    "tags": [
+      "outdoor",
+      "mossy",
+      "dirty",
+      "used",
+      "worn",
+      "shed",
+      "garden",
+      "gardening",
+      "farmhouse",
+      "greenhouse",
+      "landscaping"
+    ],
+    "modelPath": "/models/planter_pot_clay/planter_pot_clay.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "plastic_monobloc_chair_01",
+    "name": "Plastic Monobloc Chair 01",
+    "categories": [
+      "furniture",
+      "seating",
+      "collection: the_shed"
+    ],
+    "tags": [
+      "plastic",
+      "dirty",
+      "old",
+      "monobloc",
+      "outdoor",
+      "cheap",
+      "shed"
+    ],
+    "modelPath": "/models/plastic_monobloc_chair_01/plastic_monobloc_chair_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "portable_generator",
+    "name": "Portable Generator",
+    "categories": [
+      "industrial",
+      "appliances",
+      "collection: project_lighthouse"
+    ],
+    "tags": [
+      "gasoline",
+      "backup power",
+      "construction equipment",
+      "power generator",
+      "petrol",
+      "garage",
+      "power",
+      "engine"
+    ],
+    "modelPath": "/models/portable_generator/portable_generator.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "portable_searchlight",
+    "name": "Portable Searchlight",
+    "categories": [
+      "collection: project_lighthouse",
+      "lighting",
+      "electronics",
+      "tools",
+      "props"
+    ],
+    "tags": [
+      "flashlight",
+      "searchlight",
+      "plastic",
+      "lighting"
+    ],
+    "modelPath": "/models/portable_searchlight/portable_searchlight.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "pot_enamel_01",
+    "name": "Pot Enamel 01",
+    "categories": [
+      "props",
+      "decorative",
+      "dishes"
+    ],
+    "tags": [
+      "pot",
+      "container",
+      "cooking",
+      "cookware",
+      "kitchen",
+      "enamel",
+      "crockery",
+      "cuisine"
+    ],
+    "modelPath": "/models/pot_enamel_01/pot_enamel_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "potted_plant_01",
+    "name": "Potted Plant 01",
+    "categories": [
+      "decorative",
+      "plants",
+      "potted plants",
+      "nature"
+    ],
+    "tags": [
+      "potplant",
+      "plant",
+      "terracotta",
+      "pot",
+      "vase",
+      "medium",
+      "leaf",
+      "green"
+    ],
+    "modelPath": "/models/potted_plant_01/potted_plant_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "potted_plant_02",
+    "name": "Potted Plant 02",
+    "categories": [
+      "decorative",
+      "plants",
+      "potted plants",
+      "nature"
+    ],
+    "tags": [
+      "potplant",
+      "plant",
+      "pot",
+      "vase",
+      "medium",
+      "leaf",
+      "green",
+      "terracotta"
+    ],
+    "modelPath": "/models/potted_plant_02/potted_plant_02.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "potted_plant_04",
+    "name": "Potted Plant 04",
+    "categories": [
+      "decorative",
+      "plants",
+      "potted plants",
+      "succulent",
+      "nature"
+    ],
+    "tags": [
+      "cactus",
+      "aloe",
+      "succulent",
+      "potplant",
+      "small",
+      "pot",
+      "plant",
+      "decor"
+    ],
+    "modelPath": "/models/potted_plant_04/potted_plant_04.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "projector_screen",
+    "name": "Projector Screen",
+    "categories": [
+      "collection: project_lighthouse",
+      "office"
+    ],
+    "tags": [
+      "tripod",
+      "film",
+      "presentation",
+      "projection",
+      "roll-up",
+      "conference"
+    ],
+    "modelPath": "/models/projector_screen/projector_screen.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "pull_chain_light_socket",
+    "name": "Pull Chain Light Socket",
+    "categories": [
+      "lighting",
+      "collection: hidden_alley"
+    ],
+    "tags": [
+      "light",
+      "fitting",
+      "socket",
+      "bulb",
+      "fixture",
+      "ceiling",
+      "lamp",
+      "chord"
+    ],
+    "modelPath": "/models/pull_chain_light_socket/pull_chain_light_socket.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "round_wooden_table_01",
+    "name": "Round Wooden Table 01",
+    "categories": [
+      "furniture",
+      "table"
+    ],
+    "tags": [
+      "vintage",
+      "wooden",
+      "wood",
+      "polish",
+      "circle",
+      "dark",
+      "old"
+    ],
+    "modelPath": "/models/round_wooden_table_01/round_wooden_table_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "round_wooden_table_02",
+    "name": "Round Wooden Table 02",
+    "categories": [
+      "furniture",
+      "table"
+    ],
+    "tags": [
+      "antique",
+      "vintage",
+      "wooden",
+      "traditional",
+      "circle",
+      "lounge",
+      "dining"
+    ],
+    "modelPath": "/models/round_wooden_table_02/round_wooden_table_02.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "rubber_duck_toy",
+    "name": "Rubber Duck Toy",
+    "categories": [
+      "props",
+      "decorative",
+      "collection: the_shed"
+    ],
+    "tags": [
+      "shed",
+      "toy",
+      "bathroom",
+      "child",
+      "home",
+      "fun",
+      "kids",
+      "play",
+      "float",
+      "plastic",
+      "cute",
+      "animal"
+    ],
+    "modelPath": "/models/rubber_duck_toy/rubber_duck_toy.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "scandinavian_masonry_heater",
+    "name": "Scandinavian Masonry Heater",
+    "categories": [
+      "appliances"
+    ],
+    "tags": [
+      "heater",
+      "home heating",
+      "furnace",
+      "fireplace",
+      "wood stove",
+      "central heating"
+    ],
+    "modelPath": "/models/scandinavian_masonry_heater/scandinavian_masonry_heater.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "seadogs_compass",
+    "name": "Seadogs Compass",
+    "categories": [
+      "props",
+      "tools",
+      "decorative",
+      "collection: project_lighthouse"
+    ],
+    "tags": [
+      "old",
+      "vintage",
+      "antique",
+      "brass",
+      "nautical",
+      "compass",
+      "maritime",
+      "ship",
+      "navigation",
+      "pirates",
+      "sail"
+    ],
+    "modelPath": "/models/seadogs_compass/seadogs_compass.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "security_camera_01",
+    "name": "Security Camera 01",
+    "categories": [
+      "electronics",
+      "appliances",
+      "industrial",
+      "rigged",
+      "collection: hidden_alley"
+    ],
+    "tags": [
+      "cctv",
+      "surveillance",
+      "monitoring",
+      "police",
+      "security",
+      "camera",
+      "utility",
+      "infrastructure"
+    ],
+    "modelPath": "/models/security_camera_01/security_camera_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "security_camera_02",
+    "name": "Security Camera 02",
+    "categories": [
+      "industrial",
+      "electronics",
+      "appliances",
+      "rigged",
+      "collection: hidden_alley"
+    ],
+    "tags": [
+      "camera",
+      "surveillance",
+      "monitoring",
+      "cctv",
+      "police",
+      "security",
+      "utility",
+      "infrastructure"
+    ],
+    "modelPath": "/models/security_camera_02/security_camera_02.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "security_light",
+    "name": "Security Light",
+    "categories": [
+      "lighting",
+      "industrial",
+      "collection: hidden_alley"
+    ],
+    "tags": [
+      "outdoor",
+      "exterior",
+      "alleyway",
+      "entrance",
+      "infrastructure"
+    ],
+    "modelPath": "/models/security_light/security_light.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "side_table_01",
+    "name": "Side Table 01",
+    "categories": [
+      "furniture",
+      "table"
+    ],
+    "tags": [
+      "table",
+      "wood",
+      "minimalist",
+      "modern",
+      "decor",
+      "living room",
+      "bedroom",
+      "shelf",
+      "contemporary",
+      "interior",
+      "home",
+      "wooden"
+    ],
+    "modelPath": "/models/side_table_01/side_table_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "side_table_tall_01",
+    "name": "Side Table Tall 01",
+    "categories": [
+      "furniture",
+      "table"
+    ],
+    "tags": [
+      "vintage",
+      "antique",
+      "worn",
+      "old",
+      "wood",
+      "side table",
+      "side",
+      "table"
+    ],
+    "modelPath": "/models/side_table_tall_01/side_table_tall_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "small_wooden_table_01",
+    "name": "Small Wooden Table 01",
+    "categories": [
+      "furniture",
+      "table"
+    ],
+    "tags": [
+      "vintage",
+      "wood",
+      "small",
+      "table",
+      "wooden"
+    ],
+    "modelPath": "/models/small_wooden_table_01/small_wooden_table_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "sofa_02",
+    "name": "Sofa 02",
+    "categories": [
+      "furniture",
+      "seating"
+    ],
+    "tags": [
+      "wood",
+      "furniture",
+      "chair",
+      "prop",
+      "couch",
+      "leather",
+      "fabric"
+    ],
+    "modelPath": "/models/sofa_02/sofa_02.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "sofa_03",
+    "name": "Sofa 03",
+    "categories": [
+      "furniture",
+      "seating"
+    ],
+    "tags": [
+      "vintage",
+      "chair",
+      "couch",
+      "seat",
+      "fancy",
+      "mansion",
+      "manor",
+      "victorian",
+      "antique",
+      "leather"
+    ],
+    "modelPath": "/models/sofa_03/sofa_03.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "standing_chalkboard_01",
+    "name": "Standing Chalkboard 01",
+    "categories": [
+      "decorative"
+    ],
+    "tags": [
+      "resturant",
+      "sign",
+      "signage",
+      "chalk",
+      "board",
+      "coffee",
+      "workshop",
+      "cafe",
+      "urban",
+      "deli",
+      "menu"
+    ],
+    "modelPath": "/models/standing_chalkboard_01/standing_chalkboard_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "standing_picture_frame_01",
+    "name": "Standing Picture Frame 01",
+    "categories": [
+      "decorative"
+    ],
+    "tags": [
+      "modern",
+      "minimalist",
+      "clean",
+      "frame",
+      "photo",
+      "simple",
+      "art"
+    ],
+    "modelPath": "/models/standing_picture_frame_01/standing_picture_frame_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "standing_picture_frame_02",
+    "name": "Standing Picture Frame 02",
+    "categories": [
+      "decorative"
+    ],
+    "tags": [
+      "wood",
+      "painting",
+      "old",
+      "art",
+      "frame",
+      "photo"
+    ],
+    "modelPath": "/models/standing_picture_frame_02/standing_picture_frame_02.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "stationery_supplies",
+    "name": "Stationery Supplies",
+    "categories": [
+      "collection: project_lighthouse",
+      "props",
+      "office"
+    ],
+    "tags": [
+      "pen",
+      "pencil",
+      "eraser",
+      "stationery",
+      "art supplies",
+      "writing",
+      "office",
+      "desk"
+    ],
+    "modelPath": "/models/stationery_supplies/stationery_supplies.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "steel_frame_shelves_01",
+    "name": "Steel Frame Shelves 01",
+    "categories": [
+      "furniture",
+      "shelves",
+      "industrial",
+      "collection: the_shed"
+    ],
+    "tags": [
+      "commercial",
+      "modern",
+      "shelf",
+      "bookshelf",
+      "metal",
+      "wood"
+    ],
+    "modelPath": "/models/steel_frame_shelves_01/steel_frame_shelves_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "steel_frame_shelves_02",
+    "name": "Steel Frame Shelves 02",
+    "categories": [
+      "furniture",
+      "industrial",
+      "shelves",
+      "collection: the_shed"
+    ],
+    "tags": [
+      "commercial",
+      "modern",
+      "shelf",
+      "bookshelf",
+      "metal",
+      "wood"
+    ],
+    "modelPath": "/models/steel_frame_shelves_02/steel_frame_shelves_02.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "steel_frame_shelves_03",
+    "name": "Steel Frame Shelves 03",
+    "categories": [
+      "shelves",
+      "furniture"
+    ],
+    "tags": [
+      "storage",
+      "home decor",
+      "contemporary",
+      "minimalist",
+      "display",
+      "frame"
+    ],
+    "modelPath": "/models/steel_frame_shelves_03/steel_frame_shelves_03.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "stone_fire_pit",
+    "name": "Stone Fire Pit",
+    "categories": [
+      "structures",
+      "buildings",
+      "furniture",
+      "collection: the_shed"
+    ],
+    "tags": [
+      "outdoor",
+      "garden",
+      "fire",
+      "bbq",
+      "farm",
+      "farmhouse",
+      "landscaping",
+      "patio",
+      "backyard",
+      "entertainment",
+      "relaxation",
+      "stone"
+    ],
+    "modelPath": "/models/stone_fire_pit/stone_fire_pit.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "street_lamp_01",
+    "name": "Street Lamp 01",
+    "categories": [
+      "lighting",
+      "industrial",
+      "collection: hidden_alley"
+    ],
+    "tags": [
+      "street",
+      "road",
+      "light",
+      "lamppost",
+      "outdoor",
+      "pole",
+      "sidewalk",
+      "night",
+      " urban",
+      "city"
+    ],
+    "modelPath": "/models/street_lamp_01/street_lamp_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "street_lamp_02",
+    "name": "Street Lamp 02",
+    "categories": [
+      "lighting",
+      "industrial",
+      "collection: hidden_alley"
+    ],
+    "tags": [
+      "street",
+      "road",
+      "light",
+      "lamppost",
+      "outdoor",
+      "pole",
+      "sidewalk",
+      "night",
+      "urban",
+      "city"
+    ],
+    "modelPath": "/models/street_lamp_02/street_lamp_02.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "sungka_board",
+    "name": "Sungka Board",
+    "categories": [
+      "decorative",
+      "props",
+      "collection: the_shed"
+    ],
+    "tags": [
+      "shed",
+      "game",
+      "boardgame",
+      "wooden",
+      "traditional",
+      "filipino",
+      "hand made"
+    ],
+    "modelPath": "/models/sungka_board/sungka_board.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "sungka_board_02",
+    "name": "Sungka Board 02",
+    "categories": [
+      "decorative",
+      "props"
+    ],
+    "tags": [
+      "game",
+      "boardgame",
+      "wooden",
+      "filipino",
+      "traditional",
+      "hand-carved",
+      "handmade",
+      "shell",
+      "table top",
+      "toy"
+    ],
+    "modelPath": "/models/sungka_board_02/sungka_board_02.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "throw_pillows_01",
+    "name": "Throw Pillows 01",
+    "categories": [
+      "decorative"
+    ],
+    "tags": [
+      "decorative",
+      "pillow",
+      "throw",
+      "pattern",
+      "african",
+      "red",
+      "triangle",
+      "orange"
+    ],
+    "modelPath": "/models/throw_pillows_01/throw_pillows_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "tool_cart",
+    "name": "Tool Cart",
+    "categories": [
+      "collection: project_lighthouse",
+      "industrial",
+      "furniture",
+      "table"
+    ],
+    "tags": [
+      "rusted",
+      "metal",
+      "cart",
+      "drawer",
+      "rolling",
+      "workshop",
+      "casters",
+      "garage",
+      "workbench"
+    ],
+    "modelPath": "/models/tool_cart/tool_cart.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "treasure_chest",
+    "name": "Treasure Chest",
+    "categories": [
+      "props",
+      "containers",
+      "decorative",
+      "collection: smugglers_cove"
+    ],
+    "tags": [
+      "old",
+      "wooden",
+      "chest",
+      "treasure",
+      "pirates",
+      "gold",
+      "crate",
+      "maritime",
+      "colonial",
+      "worn",
+      "antique",
+      "wood",
+      "prop",
+      "container",
+      "metal",
+      "box",
+      "ornate"
+    ],
+    "modelPath": "/models/treasure_chest/treasure_chest.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "vintage_cabinet_01",
+    "name": "Vintage Cabinet 01",
+    "categories": [
+      "furniture",
+      "shelves"
+    ],
+    "tags": [
+      "vintage",
+      "farmhouse",
+      "old",
+      "antique",
+      "fancy",
+      "wooden",
+      "varnished",
+      "cupboard",
+      "shelf",
+      "cabinet"
+    ],
+    "modelPath": "/models/vintage_cabinet_01/vintage_cabinet_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "vintage_day_bed",
+    "name": "Vintage Day Bed",
+    "categories": [
+      "collection: project_lighthouse",
+      "furniture",
+      "bed",
+      "seating"
+    ],
+    "tags": [
+      "old",
+      "vintage",
+      "antique",
+      "wooden",
+      "couch",
+      "bench",
+      "sofa-bed",
+      "matress",
+      "chaise"
+    ],
+    "modelPath": "/models/vintage_day_bed/vintage_day_bed.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "vintage_electric_kettle",
+    "name": "Vintage Electric Kettle",
+    "categories": [
+      "collection: project_lighthouse",
+      "decorative",
+      "appliances"
+    ],
+    "tags": [
+      "old",
+      "vintage",
+      "antique",
+      "electric",
+      "gooseneck spout",
+      "metal",
+      "rusted",
+      "dirty",
+      "traditional"
+    ],
+    "modelPath": "/models/vintage_electric_kettle/vintage_electric_kettle.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "vintage_flashlight",
+    "name": "Vintage Flashlight",
+    "categories": [
+      "collection: project_lighthouse",
+      "lighting",
+      "electronics",
+      "props",
+      "tools"
+    ],
+    "tags": [
+      "antique",
+      "vintage",
+      "old",
+      "metal",
+      "torch",
+      "searchlight",
+      "spotlight",
+      "handheld",
+      "retro"
+    ],
+    "modelPath": "/models/vintage_flashlight/vintage_flashlight.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "vintage_grandfather_clock_01",
+    "name": "Vintage Grandfather Clock 01",
+    "categories": [
+      "decorative",
+      "appliances",
+      "rigged"
+    ],
+    "tags": [
+      "vintage",
+      "antique",
+      "fancy",
+      "time",
+      "clock",
+      "old",
+      "wooden",
+      "ornate"
+    ],
+    "modelPath": "/models/vintage_grandfather_clock_01/vintage_grandfather_clock_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "vintage_microwave",
+    "name": "Vintage Microwave",
+    "categories": [
+      "collection: project_lighthouse",
+      "appliances",
+      "electronics"
+    ],
+    "tags": [
+      "vintage",
+      "retro",
+      "wooden",
+      "70s",
+      "oven",
+      "analog"
+    ],
+    "modelPath": "/models/vintage_microwave/vintage_microwave.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "vintage_oil_lamp",
+    "name": "Vintage Oil Lamp",
+    "categories": [
+      "lighting",
+      "decorative"
+    ],
+    "tags": [
+      "lamp",
+      "oil",
+      "antique",
+      "victorian",
+      "manor",
+      "historic"
+    ],
+    "modelPath": "/models/vintage_oil_lamp/vintage_oil_lamp.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "vintage_radio_transceiver",
+    "name": "Vintage Radio Transceiver",
+    "categories": [
+      "appliances",
+      "electronics",
+      "collection: project_lighthouse"
+    ],
+    "tags": [
+      "military",
+      "army",
+      "communications",
+      "frequency dial",
+      "field radio",
+      "radio",
+      "ww2",
+      "telegraph",
+      "handset",
+      "microphone"
+    ],
+    "modelPath": "/models/vintage_radio_transceiver/vintage_radio_transceiver.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "vintage_stapler",
+    "name": "Vintage Stapler",
+    "categories": [
+      "collection: project_lighthouse",
+      "props",
+      "tools",
+      "office"
+    ],
+    "tags": [
+      "vintage",
+      "stationery",
+      "metal",
+      "retro"
+    ],
+    "modelPath": "/models/vintage_stapler/vintage_stapler.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "vintage_suitcase",
+    "name": "Vintage Suitcase",
+    "categories": [
+      "decorative",
+      "props"
+    ],
+    "tags": [
+      "vintage",
+      "old",
+      "hand made",
+      "stickers",
+      "travel",
+      "garbage",
+      "suitcase",
+      "trunk",
+      "rustic",
+      "luggage",
+      "worn",
+      "aged"
+    ],
+    "modelPath": "/models/vintage_suitcase/vintage_suitcase.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "vintage_telephone_wall_clock",
+    "name": "Vintage Telephone Wall Clock",
+    "categories": [
+      "props",
+      "decorative",
+      "wall decoration",
+      "collection: project_lighthouse"
+    ],
+    "tags": [
+      "old",
+      "vintage",
+      "antique",
+      "rotary phone",
+      "ornate",
+      "red"
+    ],
+    "modelPath": "/models/vintage_telephone_wall_clock/vintage_telephone_wall_clock.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "vintage_video_camera",
+    "name": "Vintage Video Camera",
+    "categories": [
+      "electronics",
+      "appliances"
+    ],
+    "tags": [
+      "old",
+      "vintage",
+      "photography",
+      "film",
+      "cinematic",
+      "video",
+      "camera",
+      "recording",
+      "tape",
+      "world war 2"
+    ],
+    "modelPath": "/models/vintage_video_camera/vintage_video_camera.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "vintage_wooden_drawer_01",
+    "name": "Vintage Wooden Drawer 01",
+    "categories": [
+      "furniture",
+      "shelves",
+      "table"
+    ],
+    "tags": [
+      "vintage",
+      "old",
+      "filing",
+      "drawer",
+      "office",
+      "wooden",
+      "worn",
+      "cabinet"
+    ],
+    "modelPath": "/models/vintage_wooden_drawer_01/vintage_wooden_drawer_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "wall_clock",
+    "name": "Wall Clock",
+    "categories": [
+      "collection: project_lighthouse",
+      "decorative",
+      "appliances"
+    ],
+    "tags": [
+      "time",
+      "timepiece",
+      "watch",
+      "watchface",
+      "wall clock",
+      "analog",
+      "modern",
+      "office decor",
+      "home interior",
+      "admin",
+      "office",
+      "90s"
+    ],
+    "modelPath": "/models/wall_clock/wall_clock.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "wicker_basket_01",
+    "name": "Wicker Basket 01",
+    "categories": [
+      "containers",
+      "decorative",
+      "collection: the_shed"
+    ],
+    "tags": [
+      "wood",
+      "wicker",
+      "twine",
+      "basket",
+      "picnic",
+      "outdoor",
+      "kitchen",
+      "dining",
+      "table",
+      "shed",
+      "farm"
+    ],
+    "modelPath": "/models/wicker_basket_01/wicker_basket_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "wicker_basket_02",
+    "name": "Wicker Basket 02",
+    "categories": [
+      "containers",
+      "decorative"
+    ],
+    "tags": [
+      "handcrafted",
+      "home decor",
+      "rattan",
+      "basket",
+      "handwoven",
+      "woven",
+      "rustic decor",
+      "wicker",
+      "twine"
+    ],
+    "modelPath": "/models/wicker_basket_02/wicker_basket_02.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "wooden_bookshelf_worn",
+    "name": "Wooden Bookshelf Worn",
+    "categories": [
+      "furniture",
+      "shelves",
+      "collection: the_shed"
+    ],
+    "tags": [
+      "old",
+      "wooden",
+      "wood",
+      "worn",
+      "garage",
+      "shed",
+      "rustic",
+      "antique",
+      "distressed",
+      "aged",
+      "weathered",
+      "bookcase",
+      "shelves",
+      "carpentry",
+      "vintage",
+      "storage"
+    ],
+    "modelPath": "/models/wooden_bookshelf_worn/wooden_bookshelf_worn.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "wooden_bowl_01",
+    "name": "Wooden Bowl 01",
+    "categories": [
+      "props",
+      "decorative",
+      "dishes"
+    ],
+    "tags": [
+      "bowl",
+      "wooden",
+      "carved",
+      "fruit",
+      "fruitbowl",
+      "decoration"
+    ],
+    "modelPath": "/models/wooden_bowl_01/wooden_bowl_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "wooden_bowl_02",
+    "name": "Wooden Bowl 02",
+    "categories": [
+      "props",
+      "decorative",
+      "dishes"
+    ],
+    "tags": [
+      "antique",
+      "vintage",
+      "old",
+      "wooden",
+      "ornate",
+      "traditional",
+      "fruitbowl",
+      "rustic decor",
+      "home decor"
+    ],
+    "modelPath": "/models/wooden_bowl_02/wooden_bowl_02.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "wooden_candlestick",
+    "name": "Wooden Candlestick",
+    "categories": [
+      "decorative",
+      "lighting"
+    ],
+    "tags": [
+      "old",
+      "antique",
+      "vintage",
+      "fancy",
+      "candle",
+      "historic",
+      "victorian"
+    ],
+    "modelPath": "/models/wooden_candlestick/wooden_candlestick.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "wooden_display_shelves_01",
+    "name": "Wooden Display Shelves 01",
+    "categories": [
+      "furniture",
+      "shelves"
+    ],
+    "tags": [
+      "modern",
+      "wood",
+      "pine",
+      "square",
+      "display",
+      "shelf",
+      "bookshelf"
+    ],
+    "modelPath": "/models/wooden_display_shelves_01/wooden_display_shelves_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "wooden_lantern_01",
+    "name": "Wooden Lantern 01",
+    "categories": [
+      "props",
+      "lighting",
+      "collection: smugglers_cove"
+    ],
+    "tags": [
+      "lantern",
+      "wooden",
+      "wood",
+      "old",
+      "worn",
+      "farmhouse",
+      "maritime",
+      "colonial",
+      "cove",
+      "prop",
+      "vintage",
+      "candle"
+    ],
+    "modelPath": "/models/wooden_lantern_01/wooden_lantern_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "wooden_picnic_table",
+    "name": "Wooden Picnic Table",
+    "categories": [
+      "furniture",
+      "seating",
+      "table"
+    ],
+    "tags": [
+      "vintage",
+      "old",
+      "worn",
+      "park",
+      "bench",
+      "outdoor",
+      "weathered",
+      "countryside",
+      "outdoor seating"
+    ],
+    "modelPath": "/models/wooden_picnic_table/wooden_picnic_table.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "wooden_stool_01",
+    "name": "Wooden Stool 01",
+    "categories": [
+      "seating",
+      "furniture",
+      "collection: the_shed"
+    ],
+    "tags": [
+      "old",
+      "worn",
+      "dirty",
+      "workshop",
+      "outdoor",
+      "stool",
+      "woodwork",
+      "shop"
+    ],
+    "modelPath": "/models/wooden_stool_01/wooden_stool_01.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "wooden_stool_02",
+    "name": "Wooden Stool 02",
+    "categories": [
+      "seating",
+      "furniture"
+    ],
+    "tags": [
+      "old",
+      "wooden",
+      "vintage",
+      "antique",
+      "wood",
+      "farmhouse",
+      "carpentry",
+      "handcrafted",
+      "footstool"
+    ],
+    "modelPath": "/models/wooden_stool_02/wooden_stool_02.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "wooden_table_02",
+    "name": "Wooden Table 02",
+    "categories": [
+      "furniture",
+      "table"
+    ],
+    "tags": [
+      "wooden",
+      "worn",
+      "village",
+      "rural",
+      "natural",
+      "simple"
+    ],
+    "modelPath": "/models/wooden_table_02/wooden_table_02.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  },
+  {
+    "assetId": "worn_metal_rack",
+    "name": "Worn Metal Rack",
+    "categories": [
+      "collection: project_lighthouse",
+      "furniture",
+      "shelves",
+      "industrial"
+    ],
+    "tags": [
+      "shelves",
+      "storage",
+      "metal",
+      "rusted",
+      "old",
+      "worn",
+      "workshop",
+      "garage",
+      "shed"
+    ],
+    "modelPath": "/models/worn_metal_rack/worn_metal_rack.gltf",
+    "source": "polyhaven",
+    "scale": {
+      "width": null,
+      "height": null,
+      "depth": null
+    }
+  }
+]

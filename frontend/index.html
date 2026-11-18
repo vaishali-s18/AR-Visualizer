@@ -10,13 +10,14 @@
     <meta name="description" content="Browse real furniture and preview it true-to-scale in your room using AR before you buy." />
 
     <!--
-      model-viewer is a Google web component that wraps Three.js + WebXR.
-      WHY CDN: It's a large library (~1MB). Loading it from Google's CDN
-      means users likely already have it cached from other sites.
-      The `type="module"` ensures it only loads in modern browsers that
-      support WebXR anyway.
+      @google/model-viewer is lazy-loaded on demand via loadModelViewer()
+      to keep initial page load and mobile catalog performance fast.
     -->
-    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="root"></div>

@@ -1,8 +1,9 @@
-import { useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
 import { Link } from 'react-router-dom';
-import { X, Smartphone, Package, Ruler } from 'lucide-react';
+import { X, Smartphone, Package, Ruler, Box } from 'lucide-react';
 import ModelPreview from './ModelPreview';
+import ARViewer from '../ARViewer';
 
 // ─── ModelPreviewModal ────────────────────────────────────────────────────────
 // Full-screen overlay that lets the user rotate/inspect a GLB model
@@ -10,6 +11,7 @@ import ModelPreview from './ModelPreview';
 // Props: product (object), onClose (fn)
 const ModelPreviewModal = ({ product, onClose }) => {
   const backdropRef = useRef();
+  const [modalMode, setModalMode] = useState('3d'); // '3d' | 'ar'
 
   // Close on Escape
   useEffect(() => {
@@ -29,7 +31,8 @@ const ModelPreviewModal = ({ product, onClose }) => {
 
   if (!product) return null;
 
-  const { id, name, category, material, color, dimensions, modelUrl, price } = product;
+  const id = product._id || product.id;
+  const { name, category, material, color, dimensions, modelUrl, imageUrl, thumbnailUrl, price } = product;
 
   const modal = (
     <div
@@ -50,34 +53,80 @@ const ModelPreviewModal = ({ product, onClose }) => {
         }}>
           <div>
             <p style={{ fontSize: '0.7rem', fontWeight: 700, color: 'var(--gold)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: 2 }}>
-              3D Preview
+              {modalMode === 'ar' ? 'Augmented Reality' : '3D Preview'}
             </p>
             <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: '1.2rem', fontWeight: 700, color: 'var(--text)' }}>
               {name}
             </h2>
           </div>
-          <button
-            onClick={onClose}
-            aria-label="Close preview"
-            style={{
-              background: 'var(--surface-2)', border: '1px solid var(--border)',
-              borderRadius: '50%', width: 36, height: 36,
-              display: 'flex', alignItems: 'center', justifyContent: 'center',
-              cursor: 'pointer', transition: 'all 0.2s',
-            }}
-            onMouseEnter={e => { e.currentTarget.style.background = 'var(--accent)'; e.currentTarget.style.color = '#fff'; e.currentTarget.style.borderColor = 'var(--accent)'; }}
-            onMouseLeave={e => { e.currentTarget.style.background = 'var(--surface-2)'; e.currentTarget.style.color = ''; e.currentTarget.style.borderColor = 'var(--border)'; }}
-          >
-            <X size={16} />
-          </button>
+
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+            <div style={{ display: 'flex', background: 'var(--surface-2)', padding: 3, borderRadius: 99, border: '1px solid var(--border)' }}>
+              <button
+                onClick={() => setModalMode('3d')}
+                style={{
+                  padding: '0.3rem 0.75rem',
+                  borderRadius: 99,
+                  border: 'none',
+                  background: modalMode === '3d' ? 'var(--accent)' : 'transparent',
+                  color: modalMode === '3d' ? '#fff' : 'var(--text-2)',
+                  fontSize: '0.72rem',
+                  fontWeight: 600,
+                  cursor: 'pointer',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '0.3rem',
+                }}
+              >
+                <Box size={13} /> 3D
+              </button>
+              <button
+                onClick={() => setModalMode('ar')}
+                style={{
+                  padding: '0.3rem 0.75rem',
+                  borderRadius: 99,
+                  border: 'none',
+                  background: modalMode === 'ar' ? 'var(--accent)' : 'transparent',
+                  color: modalMode === 'ar' ? '#fff' : 'var(--text-2)',
+                  fontSize: '0.72rem',
+                  fontWeight: 600,
+                  cursor: 'pointer',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '0.3rem',
+                }}
+              >
+                <Smartphone size={13} /> AR
+              </button>
+            </div>
+
+            <button
+              onClick={onClose}
+              aria-label="Close preview"
+              style={{
+                background: 'var(--surface-2)', border: '1px solid var(--border)',
+                borderRadius: '50%', width: 36, height: 36,
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                cursor: 'pointer', transition: 'all 0.2s',
+              }}
+              onMouseEnter={e => { e.currentTarget.style.background = 'var(--accent)'; e.currentTarget.style.color = '#fff'; e.currentTarget.style.borderColor = 'var(--accent)'; }}
+              onMouseLeave={e => { e.currentTarget.style.background = 'var(--surface-2)'; e.currentTarget.style.color = ''; e.currentTarget.style.borderColor = 'var(--border)'; }}
+            >
+              <X size={16} />
+            </button>
+          </div>
         </div>
 
         {/* ── Body ───────────────────────────────────────────────── */}
         <div style={{ display: 'flex', flex: 1, overflow: 'hidden', minHeight: 0 }} className="modal-body">
 
-          {/* 3D canvas — takes most space */}
+          {/* 3D canvas / AR Viewer — takes most space */}
           <div style={{ flex: 1, minWidth: 0, background: 'var(--bg)', position: 'relative' }}>
-            <ModelPreview modelUrl={modelUrl} productName={name} height="100%" />
+            {modalMode === 'ar' ? (
+              <ARViewer glbUrl={modelUrl} name={name} height="100%" />
+            ) : (
+              <ModelPreview modelUrl={modelUrl} productName={name} imageUrl={imageUrl || thumbnailUrl} height="100%" />
+            )}
           </div>
 
           {/* Sidebar */}
