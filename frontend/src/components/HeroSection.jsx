@@ -42,29 +42,38 @@ const AnimatedHeading = ({ text, className = "", style = {} }) => {
   return (
     <h1 className={className} style={style}>
       {lines.map((line, lineIndex) => {
-        const chars = line.split("");
+        const words = line.split(" ");
         const lineOffset = lines
           .slice(0, lineIndex)
           .reduce((acc, l) => acc + l.length, 0);
+        let charOffset = lineOffset;
 
         return (
           <span key={lineIndex} style={{ display: "block" }}>
-            {chars.map((char, charIndex) => {
-              const globalIndex = lineOffset + charIndex;
-              const delay = globalIndex * CHAR_DELAY;
+            {words.map((word, wordIndex) => {
+              const characters = word.split("").map((char, charIndex) => {
+                const globalIndex = charOffset + charIndex;
+                const delay = globalIndex * CHAR_DELAY;
 
+                return (
+                  <span
+                    key={charIndex}
+                    style={{
+                      display: "inline-block",
+                      opacity: animated ? 1 : 0,
+                      transform: animated ? "translateX(0)" : "translateX(-18px)",
+                      transition: `opacity 500ms ease ${delay}ms, transform 500ms ease ${delay}ms`,
+                    }}
+                  >
+                    {char}
+                  </span>
+                );
+              });
+              charOffset += word.length + 1;
               return (
-                <span
-                  key={charIndex}
-                  style={{
-                    display: "inline-block",
-                    opacity: animated ? 1 : 0,
-                    transform: animated ? "translateX(0)" : "translateX(-18px)",
-                    transition: `opacity 500ms ease ${delay}ms, transform 500ms ease ${delay}ms`,
-                    whiteSpace: "pre",
-                  }}
-                >
-                  {char === " " ? "\u00A0" : char}
+                <span key={wordIndex}>
+                  <span style={{ display: "inline-block", whiteSpace: "nowrap" }}>{characters}</span>
+                  {wordIndex < words.length - 1 ? " " : null}
                 </span>
               );
             })}

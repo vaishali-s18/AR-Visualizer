@@ -51,7 +51,7 @@ const AnimatedHeading = ({ text, style = {} }) => {
   return (
     <h1 style={{
       fontFamily: "'Playfair Display', serif",
-      fontSize: 'clamp(2.5rem, 5vw, 4rem)',
+      fontSize: 'clamp(2rem, 4vw, 3.25rem)',
       fontWeight: 600,
       lineHeight: 1.1,
       marginBottom: '1.5rem',
@@ -60,20 +60,28 @@ const AnimatedHeading = ({ text, style = {} }) => {
     }}>
       {lines.map((line, li) => (
         <span key={li} style={{ display: 'block' }}>
-          {line.split('').map((char) => {
-            const delay = charIdx++ * 22;
+          {line.split(' ').map((word, wordIndex, words) => {
+            const characters = word.split('').map((char) => {
+              const delay = charIdx++ * 22;
+              return (
+                <span
+                  key={delay}
+                  style={{
+                    display: 'inline-block',
+                    opacity: animated ? 1 : 0,
+                    transform: animated ? 'translateY(0)' : 'translateY(16px)',
+                    transition: `opacity 480ms ease ${delay}ms, transform 480ms ease ${delay}ms`,
+                  }}
+                >
+                  {char}
+                </span>
+              );
+            });
+            if (wordIndex < words.length - 1) charIdx += 1;
             return (
-              <span
-                key={delay}
-                style={{
-                  display: 'inline-block',
-                  opacity: animated ? 1 : 0,
-                  transform: animated ? 'translateY(0)' : 'translateY(16px)',
-                  transition: `opacity 480ms ease ${delay}ms, transform 480ms ease ${delay}ms`,
-                  whiteSpace: 'pre',
-                }}
-              >
-                {char === ' ' ? '\u00A0' : char}
+              <span key={wordIndex}>
+                <span style={{ display: 'inline-block', whiteSpace: 'nowrap' }}>{characters}</span>
+                {wordIndex < words.length - 1 ? ' ' : null}
               </span>
             );
           })}
