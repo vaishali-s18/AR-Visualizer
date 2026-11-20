@@ -75,6 +75,7 @@ AR camera access and Android Google Scene Viewer **require HTTPS and a public UR
    - **Build Command**: `npm run build`
    - **Output Directory**: `dist`
    - **Install Command**: `npm install --legacy-peer-deps`
+   - SPA fallback rules are included for both hosts so direct QR links (such as `/ar/...`) load the app instead of returning a host-level 404.
 3. **Environment Variables**:
    - `VITE_API_URL`: Your deployed backend origin on Render (e.g. `https://ar-visualizer-backend.onrender.com`, no trailing slash)
    - `VITE_USE_MOCK`: `false` (or `true` if deploying demo frontend without active database)

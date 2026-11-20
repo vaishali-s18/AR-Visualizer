@@ -524,6 +524,7 @@ const ARPlacement = () => {
             glbUrl={product.modelUrl}
             name={product.name}
             height="100%"
+            productId={product._id || product.id || id}
           />
         </div>
 

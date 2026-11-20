@@ -22,6 +22,8 @@ const ARViewer = ({
   style = {},
   autoRotate = true,
   onArStatusChange,
+  productId,
+  arPath,
 }) => {
   const viewerRef = useRef(null);
   const [modelViewerLoaded, setModelViewerLoaded] = useState(false);
@@ -40,7 +42,8 @@ const ARViewer = ({
   const isSecure = typeof window !== 'undefined' && window.isSecureContext;
 
   const resolvedGlbUrl = getAbsoluteModelUrl(glbUrl);
-  const currentUrl = typeof window !== 'undefined' ? getShareableUrl() : '';
+  const targetArUrl = arPath || (productId ? `/ar/${productId}` : undefined);
+  const currentUrl = typeof window !== 'undefined' ? getShareableUrl(targetArUrl) : '';
 
   // 1. Lazy load @google/model-viewer
   useEffect(() => {

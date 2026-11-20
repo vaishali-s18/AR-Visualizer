@@ -114,7 +114,7 @@ const ProductDetail = () => {
 
             <div style={{ background: 'var(--surface-2)', borderRadius: 'var(--radius-lg)', border: '1px solid var(--border)', overflow: 'hidden', position: 'relative' }}>
               {previewMode === 'ar' ? (
-                <ARViewer glbUrl={product.modelUrl} name={name} height={440} />
+                <ARViewer glbUrl={product.modelUrl} name={name} height={440} productId={id} />
               ) : (
                 <ModelPreview modelUrl={product.modelUrl} productName={name} imageUrl={product.imageUrl || product.thumbnailUrl} height={440} />
               )}

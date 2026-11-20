@@ -123,7 +123,7 @@ const ModelPreviewModal = ({ product, onClose }) => {
           {/* 3D canvas / AR Viewer — takes most space */}
           <div style={{ flex: 1, minWidth: 0, background: 'var(--bg)', position: 'relative' }}>
             {modalMode === 'ar' ? (
-              <ARViewer glbUrl={modelUrl} name={name} height="100%" />
+              <ARViewer glbUrl={modelUrl} name={name} height="100%" productId={id} />
             ) : (
               <ModelPreview modelUrl={modelUrl} productName={name} imageUrl={imageUrl || thumbnailUrl} height="100%" />
             )}
